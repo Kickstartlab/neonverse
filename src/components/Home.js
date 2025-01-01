@@ -35,24 +35,24 @@ export default function Home() {
 
     const accordionData = [
         {
-            title: 'Lorem Ipsum available',
-            content: `MDR is the MrDriver project governance token and has an important role in the ecosystem.We developed it on Binance Smart Chain (BSC) BEP20, designed to empower the whole ecosystem.`
+            title: 'Lorem Ipsum available?',
+            content: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.`
         },
         {
-            title: 'What is BitDriver Token?',
-            content: `Bitdriver(BDR) is MrDriver App Utility token, and Drivers get rewarded with it on Solo Mode. Drivers can stake BDR tokens and receive MDR for spending it to pay NFT level-up Costs, Pay repairs and maintenance fees, buy more NFT or trade it with others. `
+            title: 'Lorem Ipsum available?',
+            content: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.`
         },
         {
-            title: `What are Mr driver's NFTs and how its work for users?`,
-            content: `MrDriver NFTs are limited editions and designed for project gameplay; no one can't be minted more because we want to keep it stay away from inflation And also help to maintain their value of them. These NFTs are utility playable and updatable, which means users can add value to them with their activity and lvl up it to earn more rewards. Users can play in free mode and don't need to pay for lvl up. They are able to do it with free BDR tokens earned for their activity and driving, stake BDR to receive MDR, and pay it to cost for owned NFTs lvl up`
+            title: 'Lorem Ipsum available?',
+            content: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.`
         },
         {
-            title: 'NFT marketplace',
-            content: `Drivers Able to Trade their NFTs in our marketplace with MDR BUSD and BNB`
+            title: 'Lorem Ipsum available?',
+            content: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.`
         },
         {
-            title: 'What is the Mr driver NFTs staking, and how its work?',
-            content: `When drivers reach level 10, this possibility is active for them to use the stake option and earn rewards in MDR or other valuable tokens via Our Defi reward Pools. Based on our Block Emission MDR smart contract sends 23/040 MDR per day (691/200MDR per month) to this reward pool. There is also the possibility of a multi-NFT stake For VIP users. Staked NFTs cannot earn from driving at the same time once your NFTs connect to the reward pool.`
+            title: 'Lorem Ipsum available?',
+            content: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.`
         }
     ];
 
