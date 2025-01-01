@@ -21,25 +21,22 @@ export default function Menu() {
 
       <div className="lg:flex hidden items-center justify-between font-inter h-28">
         <a href="/" className="">
-          <img src={logo} alt="Logo" />
+          <h1 className='text-3xl font-libre font-bold text-white-100'>
+            Neonverse
+          </h1>
         </a>
 
         <nav>
-          <ul className="text-md flex justify-center gap-10 pt-4 items-center text-white-100">
+          <ul className="text-md flex justify-center gap-x-16 pt-4 items-center text-white-100">
             <li><a href="/" className="">Home</a></li>
-            <li><a href="#about" className="text-white-50 hover:text-white-100">About</a></li>
+            <li><a href="#projects" className="text-white-50 hover:text-white-100">Our Projects</a></li>
             <li><a href="#tokenomics" className="text-white-50 hover:text-white-100">Tokenomics</a></li>
-            <li><a href="#features" className="text-white-50 hover:text-white-100">Features</a></li>
-            <li><a href="#community" className='text-white-50 hover:text-white-100'>Community</a></li>
           </ul>
-
-          <div className='border-b pt-6 line-gradient'>
-          </div>
         </nav>
 
         <div>
           <button onClick={() => setShow(!show)} className="bg-gradient rounded-lg py-3 lg:px-6 px-4 font-semibold text-white-100">
-            Join the world of advantages
+           Buy Now
           </button>
 
           {show ?

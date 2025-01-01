@@ -22,7 +22,8 @@ import side from '../assets/side.png';
 import side1 from '../assets/side1.png';
 import ricon1 from '../assets/ricon1.png';
 import ricon2 from '../assets/ricon2.png';
-import bg_top from '../assets/bg-right.svg';
+import heroshape1 from '../assets/heroshape1.svg';
+import heroshape2 from '../assets/heroshape2.svg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -38,27 +39,36 @@ export default function Home() {
     return (
         <div className="bg-black-50 font-inter overflow-hidden text-white-100">
 
-            <img src={bg_top} alt='' className='absolute right-0 w-full'></img>
+            <img src={heroshape1} alt='' className='absolute left-0 top-0'></img>
+            <img src={heroshape2} alt='' className='absolute right-0 top-0'></img>
 
-            <div className="lg:px-20 px-5 relative z-50">
+            <div className='bg-color h-screen absolute left-0 right-0 top-0'>
+
+            </div>
+
+            <div className="lg:px-20 px-5 relative z-20">
                 <div className='container mx-auto'>
 
                     <Menu />
                     <div className="flex flex-col justify-center items-center gap-y-4 lg:py-28 py-12 text-center lg:w-9/12 mx-auto">
 
-                        <p className='lg:py-5 lg:text-xl text-white-50'>
-                            The Next Generation of Trust and Security
+                        <p className='lg:py-3 lg:text-xl text-white-50'>
+                            Welcome to Neonverse
                         </p>
 
-                        <div>
+                        <div className='space-y-3'>
                             <h1 data-aos='fade-up' className='md:text-6xl text-2xl font-libre font-bold text-white-100'>
-                                Revolutionizing web3 Privacy
+                                Innovating the Future
                             </h1>
 
-                            <h2 data-aos='fade-up' className='md:text-6xl text-2xl font-libre font-bold text-blue-100 pt-3'>
-                                Explore the Possibilities
+                            <h2 data-aos='fade-up' className='md:text-6xl text-2xl font-libre font-bold text-blue-100'>
+                                of Digital Engagement
                             </h2>
                         </div>
+
+                        <p className='py-5 flex mx-auto w-10/12 lg:leading-relaxed'>
+                            Neonverse is a visionary ecosystem designed to offer a wide array of platforms, rewarding experiences, and sustainable solutions. From lotteries and token creation to entertainment and beyond, Neonverse aims to lead the way in digital innovation.
+                        </p>
 
                         <div data-aos='zoom-in' className="flex items-center justify-center md:gap-12 gap-6 mx-auto mt-5">
                             <a href="/">
@@ -77,30 +87,6 @@ export default function Home() {
                                     join community
                                 </button>
                             </a>
-                        </div>
-
-                        <div>
-                            <p className='lg:text-lg text-blue-100 capitalize md:pt-14 pt-8'>
-                                powering tolls and colaboration for cripto curency
-                            </p>
-
-                            <div className='md:flex hidden flex-wrap items-center justify-center md:gap-12 gap-6 py-5 space-y-3'>
-                                <img src={b_1} alt='' className='w-40 filter grayscale'></img>
-                                <img src={b_2} alt='' className='w-12 filter grayscale'></img>
-                                <img src={b_3} alt='' className='w-12 filter grayscale'></img>
-                            </div>
-
-                            <marquee className="md:hidden block py-5">
-                                <div className='flex items-center justify-center gap-10 py-5'>
-                                    <img src={b_1} alt='' className='w-32 filter grayscale'></img>
-                                    <img src={b_2} alt='' className='w-10 filter grayscale'></img>
-                                    <img src={b_3} alt='' className='w-10 filter grayscale'></img>
-                                </div>
-                            </marquee>
-
-                            <div className='border-b line-gradient'>
-
-                            </div>
                         </div>
                     </div>
                 </div>
