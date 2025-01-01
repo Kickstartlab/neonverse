@@ -27,54 +27,26 @@ export default function Menu() {
         </a>
 
         <nav>
-          <ul className="text-md flex justify-center gap-x-16 pt-4 items-center text-white-100">
+          <ul className="text-md flex justify-center gap-x-12 pt-4 items-center text-white-100">
             <li><a href="/" className="">Home</a></li>
             <li><a href="#projects" className="text-white-50 hover:text-white-100">Our Projects</a></li>
             <li><a href="#tokenomics" className="text-white-50 hover:text-white-100">Tokenomics</a></li>
+            <li><a href="#roadmap" className="text-white-50 hover:text-white-100">Roadmap</a></li>
           </ul>
         </nav>
 
         <div>
           <button onClick={() => setShow(!show)} className="bg-gradient rounded-lg py-3 lg:px-6 px-4 font-semibold text-white-100">
-           Buy Now
+            Buy Now
           </button>
-
-          {show ?
-            <div className='border-4 border-white-100 bg-blue-100 px-6 py-8 rounded-2xl text-white-100 font-urbanist transition-all duration-300 absolute -translate-x-4 top-24 z-20'>
-              <p className='text-lg text-center mb-8'>
-                We are listed on
-                these platforms
-              </p>
-
-              <div className='space-y-5 flex flex-col'>
-                <div className='flex items-center gap-6'>
-                  <img src={platform1} alt='' className='w-10'></img>
-                  <p className='capitalize text-xl font-semibold'>toobit</p>
-                </div>
-
-                <div className='flex items-center gap-6'>
-                  <img src={platform2} alt='' className='w-10'></img>
-                  <p className='capitalize text-xl font-semibold'>Pancake swap</p>
-                </div>
-
-                <div className='flex items-center gap-6'>
-                  <img src={platform3} alt='' className='w-10'></img>
-                  <p className='capitalize text-xl font-semibold'>coinw</p>
-                </div>
-
-                <div className='flex items-center gap-6'>
-                  <img src={platform4} alt='' className='w-10'></img>
-                  <p className='capitalize text-xl font-semibold'>mexc</p>
-                </div>
-              </div>
-            </div> : null
-          }
         </div>
       </div>
 
       <div className="lg:hidden flex items-center justify-between py-6 font-montserat">
         <a href="/" className="">
-          <img src={logo} alt="Logo" />
+          <p className='text-2xl font-libre font-bold text-white-100'>
+            Neonverse
+          </p>
         </a>
 
         <button onClick={ToggleSidebar} className="nav cursor-pointer">
@@ -91,57 +63,23 @@ export default function Menu() {
           <div className="flex items-center justify-between" onClick={ToggleSidebar}>
 
             <a href="/" className="mt-4">
-              <img src={logo} alt="Logo" className='' />
+              <p className='text-2xl font-libre font-bold text-white-100'>
+                Neonverse
+              </p>
             </a>
             <i className="fa fa-times text-2xl"></i>
           </div>
 
-          <div className="sd-body mt-10">
-            <ul>
-              <a onClick={ToggleSidebar} href="/"><li className='p-3'>Home</li></a>
-              <a onClick={ToggleSidebar} href="#about"><li className='p-3'>About</li></a>
-              <a onClick={ToggleSidebar} href="#tokenomics"><li className='p-3'>Tokenomics</li></a>
-              <a onClick={ToggleSidebar} href="#features"><li className='p-3'>Features</li></a>
-              <a onClick={ToggleSidebar} href="#community"><li className='p-3'>Community</li></a>
+          <div className="sd-body mt-12">
+            <ul className='space-y-12'>
+              <a onClick={ToggleSidebar} href="/"><li className='pt-6'>Home</li></a>
+              <a onClick={ToggleSidebar} href="#projects"><li className='pt-6'>Our Projects</li></a>
+              <a onClick={ToggleSidebar} href="#tokenomics"><li className='pt-6'>Tokenomics</li></a>
+              <a onClick={ToggleSidebar} href="#roadmap"><li className='pt-6'>Roadmap</li></a>
 
-              <div>
-
-                <button onClick={() => setShow(!show)} className="bg-gradient rounded-lg p-3 text-white-100 text-xs text-left">
-                  Join the world of advantages
-                </button>
-
-                {show ?
-                  <div className='border-4 border-white-100 bg-blue-100 p-3 rounded-2xl text-white-100 font-urbanist transition-all duration-300 w-48 mt-3'>
-                    <p className='text-center mb-5'>
-                      We are listed on
-                      these platforms
-                    </p>
-
-                    <div className='space-y-3 flex flex-col'>
-                      <div className='flex items-center gap-3'>
-                        <img src={platform1} alt='' className='w-8'></img>
-                        <p className='capitalize font-medium'>toobit</p>
-                      </div>
-
-                      <div className='flex items-center gap-3'>
-                        <img src={platform2} alt='' className='w-8'></img>
-                        <p className='capitalize font-medium'>Pancake swap</p>
-                      </div>
-
-                      <div className='flex items-center gap-3'>
-                        <img src={platform3} alt='' className='w-8'></img>
-                        <p className='capitalize font-medium'>coinw</p>
-                      </div>
-
-                      <div className='flex items-center gap-3'>
-                        <img src={platform4} alt='' className='w-8'></img>
-                        <p className='capitalize font-medium'>mexc</p>
-                      </div>
-                    </div>
-                  </div>
-                  : null
-                }
-              </div>
+              <button onClick={() => setShow(!show)} className="bg-gradient rounded-lg p-3 w-full text-white-100 text-center">
+                Buy Now
+              </button>
             </ul>
           </div>
 
