@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-gradient {
+  background: linear-gradient(-45deg, #4776E6, #245fe9, #8E54E9, #512f88);
+  animation: gradient 3s ease infinite;
+  background-size: 400% 400%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.bg-right {
+  background-image: url(./assets/side1.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.line-gradient {
+  filter: drop-shadow(4px 6px 61px rgba(99, 104, 231, 0.25));
+  border-image-source: radial-gradient(48.6% 799.61% at 50% 50%, #4776E6 0%, rgba(142, 84, 233, 0) 100%);
+  border-image-slice: 1;
+}
+
+.bg-img {
+  background-image: url(../src/assets/bottom.png);
+  /* background-position: right; */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.border-custom {
+  border: 1px solid;
+  border-radius: 12px;
+  border-image-slice: 1;
+  border-image-source: radial-gradient(55.88% 799.61% at 50% 50%, #4776E6 0%, rgba(142, 84, 233, 0) 100%);
+  filter: drop-shadow(4px 6px 61px 0px #6368E740);
+}
+
+.animate-float {
+  transform: translatey(0px);
+  animation: float 1.8s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 30px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+:root {
+  --angle: 45deg;
+}
+
+
+.border-gradient {
+  border: solid 7px transparent;
+  border-radius: 12px;
+  border-image: conic-gradient(from var(--angle),
+      #FF4880 0deg 90deg,
+      #FEAE37 90deg 180deg,
+      #377af5 180deg 270deg,
+      #8E54E9 270deg 360deg) 1 stretch;
+  animation: rotate 4s linear infinite;
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+.popup-arrow {
+  display: none !important;
+}
+
+/* ---Sidebar css */
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 8%);
+  background: #050610;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 0.5s;
+  z-index: 50 !important;
+}
+
+.sidebar.active {
+  left: 0;
+}
+
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sidebar-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sd-body {
+  padding: 10px;
+  max-height: calc(100vh - 67px);
+  overflow-x: hidden;
+}
+
+.sd-body ul {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.sd-body ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  width: 100%;
+}
