@@ -17,7 +17,7 @@ const Accordion = ({ title, content }) => {
                 </div>
 
             </div>
-            {isActive && <div className="accordion-content font-inter text-white-100 pt-6 duration-100">{content}</div>}
+            {isActive && <div className="accordion-content text-white-100 pt-6 duration-100">{content}</div>}
         </div>
     );
 };

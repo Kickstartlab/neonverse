@@ -3,7 +3,13 @@ html {
 }
 
 .bg-gradient {
-  background: linear-gradient(-45deg, #4776E6, #245fe9, #8E54E9, #512f88);
+  background: linear-gradient(-45deg, #4776E6, #245fe9, rgba(62, 125, 255, 0), #512f88);
+  animation: gradient 3s ease infinite;
+  background-size: 400% 400%;
+}
+
+.bg-gradient:hover {
+  background: linear-gradient(-45deg, #4776E6, #245fe9, rgba(62, 125, 255, 0), #512f88);
   animation: gradient 3s ease infinite;
   background-size: 400% 400%;
 }
@@ -25,27 +31,6 @@ html {
   100% {
     background-position: 0% 50%;
   }
-}
-
-.bg-right {
-  background-image: url(./assets/side1.png);
-  background-position: right;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.line-gradient {
-  filter: drop-shadow(4px 6px 61px rgba(99, 104, 231, 0.25));
-  border-image-source: radial-gradient(48.6% 799.61% at 50% 50%, #4776E6 0%, rgba(142, 84, 233, 0) 100%);
-  border-image-slice: 1;
-}
-
-.bg-img {
-  background-image: url(../src/assets/bottom.png);
-  /* background-position: right; */
-  background-size: cover;
-  background-repeat: no-repeat;
-
 }
 
 .border-custom {
@@ -84,11 +69,11 @@ html {
   border: solid 7px transparent;
   border-radius: 12px;
   border-image: conic-gradient(from var(--angle),
-      #FF4880 0deg 90deg,
-      #FEAE37 90deg 180deg,
-      #377af5 180deg 270deg,
-      #8E54E9 270deg 360deg) 1 stretch;
-  animation: rotate 4s linear infinite;
+      #4776e6 0deg 90deg,
+      #2347B9 90deg 180deg,
+      #8BA6FF 180deg 270deg,
+      #8696CA 270deg 360deg) 1 stretch;
+  animation: rotate 6s linear infinite;
 }
 
 @property --angle {

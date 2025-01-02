@@ -2,18 +2,6 @@ import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import Accordion from './Accordion'
-import token from '../assets/token.png';
-import wallet from '../assets/wallet.png';
-import google from '../assets/google.png';
-import apple from '../assets/apple.png';
-import video from '../assets/video.png';
-import bar1 from '../assets/bar1.png';
-import bar2 from '../assets/bar2.png';
-import bar3 from '../assets/bar3.png';
-import side from '../assets/side.png';
-import side1 from '../assets/side1.png';
-import ricon1 from '../assets/ricon1.png';
-import ricon2 from '../assets/ricon2.png';
 import heroshape1 from '../assets/heroshape1.svg';
 import heroshape2 from '../assets/heroshape2.svg';
 import faqshape1 from '../assets/faqshape1.svg';
@@ -57,7 +45,7 @@ export default function Home() {
     ];
 
     return (
-        <div className="bg-black-50 font-inter overflow-hidden text-white-100 dark:bg-[#14102C]">
+        <div className="bg-black-50 font-urbanist overflow-hidden text-white-100 dark:bg-[#14102C]">
 
             <img src={heroshape1} alt='' className='absolute left-0 top-0'></img>
             <img src={heroshape2} alt='' className='absolute right-0 top-0'></img>
@@ -117,9 +105,6 @@ export default function Home() {
             <section id="features" class="py-16 relative z-10 lg:px-20 px-5">
                 <div class="container mx-auto">
                     <div class="mx-auto mb-16 max-w-[590px] text-center">
-                        <span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl">
-                            CRYPTO FEATURE
-                        </span>
                         <h2 class="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px] font-libre">
                             Best Features
                         </h2>
@@ -130,7 +115,7 @@ export default function Home() {
                     </div>
 
                     <div class="-mx-4 flex flex-wrap">
-                        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                        <div data-aos='fade-up' data-aos-delay='0' class="w-full px-4 md:w-1/2 lg:w-1/3">
                             <div class="mx-auto mb-14 max-w-[370px] text-center">
                                 <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -153,7 +138,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                        <div data-aos='fade-up' data-aos-delay='100' class="w-full px-4 md:w-1/2 lg:w-1/3">
                             <div class="mx-auto mb-14 max-w-[370px] text-center">
                                 <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -164,7 +149,7 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 class="mb-3 text-xl font-bold text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
                                         Early Bonus
                                     </h3>
 
@@ -176,7 +161,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                        <div data-aos='fade-up' data-aos-delay='200' class="w-full px-4 md:w-1/2 lg:w-1/3">
                             <div class="mx-auto mb-14 max-w-[370px] text-center">
                                 <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -189,7 +174,7 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 class="mb-3 text-xl font-bold text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
                                         Universal Access
                                     </h3>
 
@@ -201,7 +186,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                        <div data-aos='fade-up' data-aos-delay='300' class="w-full px-4 md:w-1/2 lg:w-1/3">
                             <div class="mx-auto mb-14 max-w-[370px] text-center">
                                 <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -212,7 +197,7 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 class="mb-3 text-xl font-bold text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
                                         Secure Storage
                                     </h3>
 
@@ -224,7 +209,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                        <div data-aos='fade-up' data-aos-delay='400' class="w-full px-4 md:w-1/2 lg:w-1/3">
                             <div class="mx-auto mb-14 max-w-[370px] text-center">
                                 <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -235,7 +220,7 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 class="mb-3 text-xl font-bold text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
                                         Low Cost
                                     </h3>
 
@@ -247,7 +232,7 @@ export default function Home() {
                                 </div>
                             </div>
                         </div>
-                        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+                        <div data-aos='fade-up' data-aos-delay='500' class="w-full px-4 md:w-1/2 lg:w-1/3">
                             <div class="mx-auto mb-14 max-w-[370px] text-center">
                                 <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -258,7 +243,7 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 class="mb-3 text-xl font-bold text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
                                         Several Profit
                                     </h3>
 
@@ -285,21 +270,23 @@ export default function Home() {
                         </h3>
                     </div>
 
-                    <div className="flex flex-col mx-auto lg:w-11/12 md:p-16 p-6 dark:bg-[#131b4c] rounded-lg md:gap-y-24 gap-y-8">
+                    <div className="flex flex-col mx-auto border-gradient lg:w-11/12 md:p-16 p-6 dark:bg-[#131b4c] rounded-lg md:gap-y-24 gap-y-8">
 
                         <div className='lg:flex items-center gap-20 lg:space-y-0 space-y-6'>
-                            <div class="w-full px-4 lg:w-1/2">
+                            <div data-aos='zoom-in' class="w-full px-4 lg:w-1/2">
                                 <PieChart className='md:w-96 w-64 flex mx-auto'
                                     data={[
-                                        { title: 'One', value: 10, color: '#4776e6' },
-                                        { title: 'Two', value: 15, color: '#2347B9' },
-                                        { title: 'Three', value: 20, color: '#8BA6FF' },
-                                        { title: 'Three', value: 20, color: '#8696CA' },
-                                        { title: 'Three', value: 20, color: '#8AC8FF' },
+                                        { title: ' 5% Sell Tax', value: 30, color: '#4776e6' },
+                                        { title: '1% to Owners: Funds ecosystem management and platform upgrades.', value: 15, color: '#2347B9' },
+                                        { title: '1% to Liquidity Pool (LP): Ensures token price stability.', value: 15, color: '#8BA6FF' },
+                                        {
+                                            title: `2% to Lottery Pool: Boosts rewards for participants, enhancing the lottery experience.`, value: 20, color: '#8696CA'
+                                        },
+                                        { title: '1% Back to Holders: Rewards loyal holders for their trust and participation.', value: 15, color: '#8AC8FF' },
                                     ]}
                                 />
                             </div>
-                            <div className="w-full px-4 lg:w-1/2">
+                            <div data-aos='fade-right' className="w-full px-4 lg:w-1/2">
                                 <div className="mb-9">
                                     <h3 className="mb-3 font-libre md:text-3xl text-xl font-bold ">
                                         NeonLotto (Token: $NLOT)
@@ -356,17 +343,17 @@ export default function Home() {
                         </div>
 
                         <div className='lg:flex items-center flex-row-reverse gap-20 lg:space-y-0 space-y-6'>
-                            <div class="w-full px-4 lg:w-1/2">
+                            <div data-aos='zoom-in' class="w-full px-4 lg:w-1/2">
                                 <PieChart className='md:w-96 w-64 flex mx-auto'
                                     data={[
-                                        { title: 'One', value: 10, color: '#4776e6' },
-                                        { title: 'Two', value: 15, color: '#2347B9' },
-                                        { title: 'Three', value: 20, color: '#8BA6FF' },
-                                        { title: 'Three', value: 20, color: '#8696CA' },
+                                        { title: `5% Sell Tax`, value: 40, color: '#4776e6' },
+                                        { title: `1% to Owners: Supports platform development and growth.`, value: 20, color: '#2347B9' },
+                                        { title: `1% to Liquidity Pool (LP): Stabilizes token liquidity and trading.`, value: 20, color: '#8BA6FF' },
+                                        { title: `3% Back to Holders: Encourages long-term investment and loyalty.`, value: 30, color: '#8696CA' },
                                     ]}
                                 />
                             </div>
-                            <div className="w-full px-4 lg:w-1/2">
+                            <div data-aos='fade-right' className="w-full px-4 lg:w-1/2">
                                 <div className=" mb-9">
                                     <h3 className="mb-3 font-libre md:text-3xl text-xl font-bold ">
                                         NeonSora (Token: $NSORA)
@@ -416,17 +403,17 @@ export default function Home() {
                         </div>
 
                         <div className='lg:flex items-center gap-20 lg:space-y-0 space-y-6'>
-                            <div class="w-full px-4 lg:w-1/2">
+                            <div data-aos='zoom-in' class="w-full px-4 lg:w-1/2">
                                 <PieChart className='md:w-96 w-64 flex mx-auto'
                                     data={[
-                                        { title: 'One', value: 20, color: '#4776e6' },
-                                        { title: 'Two', value: 15, color: '#2347B9' },
-                                        { title: 'Three', value: 10, color: '#8BA6FF' },
-                                        { title: 'Three', value: 10, color: '#8696CA' },
+                                        { title: '5% Sell Tax', value: 40, color: '#4776e6' },
+                                        { title: `1% to Owners: Enables continued platform innovation.`, value: 20, color: '#2347B9' },
+                                        { title: `1% to Liquidity Pool (LP): Ensures token stability.`, value: 20, color: '#8BA6FF' },
+                                        { title: `3% Back to Holders: Provides rewards for loyal supporters.`, value: 30, color: '#8696CA' },
                                     ]}
                                 />
                             </div>
-                            <div className="w-full px-4 lg:w-1/2">
+                            <div data-aos='fade-right' className="w-full px-4 lg:w-1/2">
                                 <div className=" mb-9">
                                     <h3 className="mb-3 font-libre md:text-3xl text-xl font-bold ">
                                         NeonStream (Token: $NSTREAM)
@@ -514,8 +501,7 @@ export default function Home() {
                                 <span
                                     class="absolute top-0 left-2 hidden h-full w-[2px] bg-light-bg dark:bg-[#2D2C4A] md:left-1/2 md:block"></span>
                                 <div class="w-full px-4 md:w-1/2">
-                                    <div
-                                        class="relative z-10 mb-10 rounded-lg bg-white-50 py-8 px-6 dark:bg-[#131b4c] md:mr-3 md:mb-0 md:text-right lg:mr-5">
+                                    <div data-aos='fade-right' class="relative z-10 mb-10 rounded-lg bg-white-50 py-8 px-6 dark:bg-[#131b4c] md:mr-3 md:mb-0 md:text-right lg:mr-5">
                                         <span
                                             class="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
                                         <span
@@ -558,7 +544,7 @@ export default function Home() {
                                 </div>
                                 <div class="w-full px-4 md:w-1/2"></div>
                                 <div class="w-full px-4 md:w-1/2"></div>
-                                <div class="w-full px-4 md:w-1/2">
+                                <div data-aos='fade-left' class="w-full px-4 md:w-1/2">
                                     <div class="relative z-10 mb-10 rounded-lg bg-light-bg py-8 px-6 dark:bg-[#131b4c] md:ml-3 md:mb-0 lg:ml-5">
                                         <span
                                             class="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
@@ -613,7 +599,7 @@ export default function Home() {
                                         </a>
                                     </div>
                                 </div>
-                                <div class="w-full px-4 md:w-1/2">
+                                <div data-aos='fade-right' class="w-full px-4 md:w-1/2">
                                     <div
                                         class="relative z-10 mb-10 rounded-lg bg-light-bg py-8 px-6 dark:bg-[#131b4c] md:mr-3 md:mb-0 md:text-right lg:mr-5">
                                         <span
@@ -658,7 +644,7 @@ export default function Home() {
                                 </div>
                                 <div class="w-full px-4 md:w-1/2"></div>
                                 <div class="w-full px-4 md:w-1/2"></div>
-                                <div class="w-full px-4 md:w-1/2">
+                                <div data-aos='fade-left' class="w-full px-4 md:w-1/2">
                                     <div class="relative z-10 mb-10 rounded-lg bg-light-bg py-8 px-6 dark:bg-[#131b4c] md:ml-3 md:mb-0 lg:ml-5">
                                         <span
                                             class="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
@@ -712,12 +698,9 @@ export default function Home() {
 
             {/* faq section */}
 
-            <section id="faq" class="relative z-10 bg-light-bg pb-24 dark:bg-[#14102C] lg:px-20 px-5">
+            <section id="faq" class="relative z-10 bg-light-bg dark:bg-[#14102C] lg:px-20 px-5 pb-8">
                 <div class="container mx-auto">
                     <div class="mx-auto mb-16 max-w-[630px] text-center md:mb-20">
-                        <span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl">
-                            FAQ
-                        </span>
                         <h2 class="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px]">
                             Frequently Asked Questions
                         </h2>
@@ -727,7 +710,7 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div data-aos="zoom-in" data-aos-delay="350" className="accordion space-y-5 py-12 lg:w-9/12 flex flex-col mx-auto">
+                    <div data-aos="fade-up" data-aos-delay="150" className="accordion space-y-5 py-12 lg:w-9/12 flex flex-col mx-auto">
                         {accordionData.map(({ numbers, title, content }) => (
                             <Accordion title={title} content={content} numbers={numbers} />
                         ))}

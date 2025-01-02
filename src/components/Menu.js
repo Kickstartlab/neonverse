@@ -1,9 +1,4 @@
 import React, { useState } from 'react'
-import logo from '../assets/logo.png';
-import platform1 from '../assets/platform1.png';
-import platform2 from '../assets/platform2.png';
-import platform3 from '../assets/platform3.png';
-import platform4 from '../assets/platform4.png';
 
 export default function Menu() {
 
