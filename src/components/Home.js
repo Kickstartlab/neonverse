@@ -23,35 +23,238 @@ export default function Home() {
 
     const accordionData = [
         {
-            title: 'Lorem Ipsum available?',
-            content: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.`
+            title: 'What is Neonverse?',
+            content: `Neonverse is a decentralized ecosystem designed to empower individuals by integrating blockchain technology into entertainment, tokenization, and financial innovation. It comprises platforms like Neon Stream, NeonLotto, and NeonSora, each offering unique utilities and tokenized solutions.`
         },
         {
-            title: 'Lorem Ipsum available?',
-            content: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.`
+            title: 'What platforms are included in Neonverse?',
+            content: <div>
+                <strong>Neonverse includes:</strong>
+                <ul className='pl-4 list-disc space-y-2 pt-4'>
+                    <li>
+                        Neon Stream: A streaming platform offering live content, video-on-demand, and subscription plans powered by the $NSTREAM token.
+                    </li>
+                    <li>
+                        NeonLotto: A lottery dApp with a 6/58 format, where tickets are purchased using $NLOT tokens.
+                    </li>
+                    <li>
+                        NeonSora: A token creation platform currently on Binance Smart Chain (BSC), with plans to expand to Solana.
+                    </li>
+                </ul>
+            </div>
         },
         {
-            title: 'Lorem Ipsum available?',
-            content: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.`
+            title: 'What is the vision of Neonverse?',
+            content: `Neonverse envisions a decentralized world where creativity, innovation, and financial freedom converge. Its goal is to empower individuals to take control of their digital future through accessible and innovative blockchain solutions.`
         },
         {
-            title: 'Lorem Ipsum available?',
-            content: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.`
+            title: 'What are the native tokens of Neonverse?',
+            content: <div>
+                <strong>
+                    The native tokens for Neonverse platforms are:
+                </strong>
+
+                <ul className='pl-4 list-disc space-y-2 pt-4'>
+                    <li>
+                        $NSTREAM: Used for Neon Stream subscriptions.
+                    </li>
+                    <li>
+                        $NLOT: Used for purchasing lottery tickets on NeonLotto.
+                    </li>
+                    <li>
+                        $NSORA: Supports transactions and community rewards on NeonSora.
+                    </li>
+                    <li>
+                        A future token, $NVERS, will serve as the ecosystem’s backbone, connecting all platforms.
+                    </li>
+                </ul>
+            </div>
         },
         {
-            title: 'Lorem Ipsum available?',
-            content: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.`
+            title: 'How does Neonverse generate revenue?',
+            content: `Neonverse operates as a profit-driven ecosystem. Revenue is generated through subscription fees, platform transactions, and tokenomics (via sell taxes). These funds support the ecosystem’s sustainability and future developments, such as poker and raffle games.`
+        },
+        {
+            title: 'What is NeonSora?',
+            content: `NeonSora is a token creation platform on the Binance Smart Chain (BSC) that plans to integrate Solana in the future. It allows users to create customized tokens without governance features, focusing on simplicity, security, and rewarding creators.`
+        },
+        {
+            title: 'How does NeonLotto work?',
+            content: `NeonLotto is a decentralized lottery platform where players select 6 numbers from 1 to 58. Tickets are purchased using $NLOT tokens, and the platform operates with a 5% sell tax, which is distributed to the owner, liquidity pool, and token holders.`
+        },
+        {
+            title: 'What makes Neon Stream unique?',
+            content: `Neon Stream offers a combination of live streaming and video-on-demand services. Subscriptions are purchased with $NSTREAM tokens at the lowest guaranteed price. The platform also combines subscription and ad-based revenue models to maximize affordability and rewards for token holders.`
+        },
+        {
+            title: 'What is the tax structure for Neonverse tokens?',
+            content:
+                <div>
+                    <strong>
+                        All Neonverse platform tokens follow a 5% sell tax structure:
+                    </strong>
+
+                    <ul className='pl-4 list-disc space-y-2 pt-4'>
+                        <li>
+                            1% goes to the owner.
+                        </li>
+                        <li>
+                            1% goes to the liquidity pool.
+                        </li>
+                        <li>
+                            3% is distributed to token holders.
+                        </li>
+                    </ul>
+                </div>
+        },
+        {
+            title: 'How does Neonverse ensure sustainability?',
+            content:
+                <div>
+                    <strong>
+                        Sustainability is ensured through:
+                    </strong>
+
+                    <ul className='pl-4 list-disc space-y-2 pt-4'>
+                        <li>
+                            Profit-driven utilities.
+                        </li>
+                        <li>
+                            Transparent and secure tokenomics.
+                        </li>
+                        <li>
+                            Reinforcement of the ecosystem using platform revenues.
+                        </li>
+                        <li>
+                            Continuous innovation and expansion into new features and platforms.
+                        </li>
+                    </ul>
+                </div>
+        },
+        {
+            title: 'HWhat is the roadmap for Neonverse?',
+            content:
+                <div>
+                    <strong>
+                        Neonverse’s roadmap includes:
+                    </strong>
+
+                    <ul className='pl-4 list-disc space-y-2 pt-4'>
+                        <li>
+                            Launching foundational platforms (Neon Stream, NeonLotto, NeonSora).
+                        </li>
+                        <li>
+                            Expanding features and fostering community engagement.
+                        </li>
+                        <li>
+                            Introducing $NVERS token and additional utilities.
+                        </li>
+                        <li>
+                            Establishing Neonverse as a global leader in blockchain innovation.`
+                        </li>
+                    </ul>
+                </div>
+        },
+        {
+            title: 'How can I participate in Neonverse?',
+            content:
+                <div>
+                    <strong>
+                        You can participate by:
+                    </strong>
+
+                    <ul className='pl-4 list-disc space-y-2 pt-4'>
+                        <li>
+                            Using Neonverse platforms like Neon Stream, NeonLotto, and NeonSora.
+                        </li>
+                        <li>
+                            Holding and trading Neonverse tokens ($NSTREAM, $NLOT, $NSORA).
+                        </li>
+                        <li>
+                            Staying updated through the Neonverse community on Telegram and other channels.
+                        </li>
+                    </ul>
+                </div>
+        },
+        {
+            title: 'Is Neonverse secure?',
+            content:
+                <div>
+                    <strong>
+                        Yes, Neonverse prioritizes security through:
+                    </strong>
+
+                    <ul className='pl-4 list-disc space-y-2 pt-4'>
+                        <li>
+                            Regular smart contract audits.
+                        </li>
+                        <li>
+                            Open-source code for transparency.
+                        </li>
+                        <li>
+                            Robust measures to protect user data and transactions.`
+                        </li>
+                    </ul>
+                </div>
+        },
+        {
+            title: 'How is Neonverse different from other ecosystems?',
+            content:
+                <div>
+                    <strong>
+                        Neonverse stands out due to:
+                    </strong>
+
+                    <ul className='pl-4 list-disc space-y-2 pt-4'>
+                        <li>
+                            Its integration of entertainment and tokenization.
+                        </li>
+                        <li>
+                            A profit-driven model that ensures ecosystem sustainability.
+                        </li>
+                        <li>
+                            Unique utilities like Neon Stream, NeonLotto, and NeonSora.
+                        </li>
+                        <li>
+                            A commitment to innovation and user empowerment.
+                        </li>
+                    </ul>
+                </div>
+        },
+        {
+            title: 'What’s next for Neonverse?',
+            content:
+                <div>
+                    <strong>
+                        Neonverse plans to:
+                    </strong>
+
+                    <ul className='pl-4 list-disc space-y-2 pt-4'>
+                        <li>
+                            Launch the $NVERS token.
+                        </li>
+                        <li>
+                            Expand into new platforms like poker and raffle games.
+                        </li>
+                        <li>
+                            Introduce cross-chain integrations for broader accessibility.
+                        </li>
+                        <li>
+                            Continue building a robust, decentralized ecosystem.
+                        </li>
+                    </ul>
+                </div>
         }
+
     ];
 
     return (
-        <div className="bg-black-50 font-urbanist overflow-hidden text-white-100 dark:bg-[#14102C]">
+        <div className="font-urbanist overflow-hidden  dark:text-white-100 text-blue-50 dark:bg-[#14102C] bg-white-100">
 
             <img src={heroshape1} alt='' className='absolute left-0 top-0'></img>
             <img src={heroshape2} alt='' className='absolute right-0 top-0'></img>
 
             <div className='bg-color h-screen absolute left-0 right-0 top-0'>
-
             </div>
 
             <div className="lg:px-20 px-5 relative z-20">
@@ -60,12 +263,12 @@ export default function Home() {
                     <Menu />
                     <div className="flex flex-col justify-center items-center gap-y-4 lg:py-28 py-12 text-center lg:w-9/12 mx-auto">
 
-                        <p data-aos='fade-in' dta-aos-delay='150' className='lg:py-3 lg:text-xl text-white-50'>
+                        <p data-aos='fade-in' dta-aos-delay='150' className='lg:py-3 lg:text-xl dark:text-white-50 text-blue-50'>
                             Welcome to Neonverse
                         </p>
 
                         <div className='space-y-3'>
-                            <h1 data-aos='fade-up' className='md:text-6xl text-2xl font-libre font-bold text-white-100'>
+                            <h1 data-aos='fade-up' className='md:text-6xl text-2xl font-libre font-bold  dark:text-white-100 text-blue-50'>
                                 Innovating the Future
                             </h1>
 
@@ -74,11 +277,11 @@ export default function Home() {
                             </h2>
                         </div>
 
-                        <p data-aos='fade-in' dta-aos-delay='150' className='md:py-5 flex mx-auto w-10/12 lg:leading-relaxed'>
+                        <p data-aos='fade-in' dta-aos-delay='150' className='py-5 flex mx-auto w-10/12 lg:leading-relaxed'>
                             Neonverse is a visionary ecosystem designed to offer a wide array of platforms, rewarding experiences, and sustainable solutions. From lotteries and token creation to entertainment and beyond, Neonverse aims to lead the way in digital innovation.
                         </p>
 
-                        <div data-aos='zoom-in' className="flex items-center justify-center md:gap-12 gap-6 mx-auto mt-5">
+                        <div data-aos='zoom-in' className="flex items-center justify-center md:gap-12 gap-6 mx-auto">
                             <a href="/">
                                 <button className="text-white-100 bg-gradient rounded-xl py-3 flex items-center justify-center gap-x-2 md:text-lg text-xs md:px-6 px-4 font-semibold">
                                     Get Started
@@ -91,7 +294,7 @@ export default function Home() {
                             </a>
 
                             <a href="/" className=''>
-                                <button className="text-white-100 font-semibold md:text-lg text-sm px-5 py-3 rounded-lg border border-blue-100">
+                                <button className=" dark:text-white-100 text-blue-50 font-semibold md:text-lg text-sm px-5 py-3 rounded-lg border border-blue-100">
                                     Join community
                                 </button>
                             </a>
@@ -270,7 +473,7 @@ export default function Home() {
                         </h3>
                     </div>
 
-                    <div className="flex flex-col mx-auto border-gradient lg:w-11/12 md:p-16 p-6 dark:bg-[#131b4c] rounded-lg md:gap-y-24 gap-y-8">
+                    <div className="flex flex-col mx-auto border-gradient lg:w-11/12 md:p-16 p-6 dark:bg-[#131b4c] bg-black-25 rounded-lg md:gap-y-24 gap-y-8">
 
                         <div className='lg:flex items-center gap-20 lg:space-y-0 space-y-8'>
                             <div data-aos='zoom-in' class="w-full px-4 lg:w-1/2">
@@ -499,9 +702,9 @@ export default function Home() {
                         <div class="w-full px-4 lg:w-10/12 xl:w-9/12">
                             <div class="relative -mx-4 flex flex-wrap md:py-14 lg:py-20">
                                 <span
-                                    class="absolute top-0 left-2 hidden h-full w-[2px] bg-light-bg dark:bg-[#2D2C4A] md:left-1/2 md:block"></span>
+                                    class="absolute top-0 left-2 hidden h-full w-[3px] bg-black-25 dark:bg-[#2D2C4A] md:left-1/2 md:block"></span>
                                 <div class="w-full px-4 md:w-1/2">
-                                    <div data-aos='fade-right' class="relative z-10 mb-10 rounded-lg bg-white-50 py-8 px-6 dark:bg-[#131b4c] md:mr-3 md:mb-0 md:text-right lg:mr-5">
+                                    <div data-aos='fade-right' class="relative z-10 mb-10 rounded-lg bg-black-25 py-8 px-6 dark:bg-[#131b4c] md:mr-3 md:mb-0 md:text-right lg:mr-5">
                                         <span
                                             class="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
                                         <span
@@ -545,11 +748,11 @@ export default function Home() {
                                 <div class="w-full px-4 md:w-1/2"></div>
                                 <div class="w-full px-4 md:w-1/2"></div>
                                 <div data-aos='fade-left' class="w-full px-4 md:w-1/2">
-                                    <div class="relative z-10 mb-10 rounded-lg bg-light-bg py-8 px-6 dark:bg-[#131b4c] md:ml-3 md:mb-0 lg:ml-5">
+                                    <div class="relative z-10 mb-10 rounded-lg bg-black-25 py-8 px-6 dark:bg-[#131b4c] md:ml-3 md:mb-0 lg:ml-5">
                                         <span
                                             class="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
                                         <span
-                                            class="absolute -left-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-light-bg dark:bg-[#131b4c] md:block"></span>
+                                            class="absolute -left-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-black-25 dark:bg-[#131b4c] md:block"></span>
                                         <h3 class="mb-3 text-xl font-bold text-black dark:text-white">
                                             Jan 14,2021
                                         </h3>
@@ -601,11 +804,11 @@ export default function Home() {
                                 </div>
                                 <div data-aos='fade-right' class="w-full px-4 md:w-1/2">
                                     <div
-                                        class="relative z-10 mb-10 rounded-lg bg-light-bg py-8 px-6 dark:bg-[#131b4c] md:mr-3 md:mb-0 md:text-right lg:mr-5">
+                                        class="relative z-10 mb-10 rounded-lg bg-black-25 py-8 px-6 dark:bg-[#131b4c] md:mr-3 md:mb-0 md:text-right lg:mr-5">
                                         <span
                                             class="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
                                         <span
-                                            class="absolute -right-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-light-bg dark:bg-[#131b4c] md:block"></span>
+                                            class="absolute -right-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-black-25 dark:bg-[#131b4c] md:block"></span>
                                         <h3 class="mb-3 text-xl font-bold text-black dark:text-white">
                                             Mar 30,2021
                                         </h3>
@@ -645,7 +848,7 @@ export default function Home() {
                                 <div class="w-full px-4 md:w-1/2"></div>
                                 <div class="w-full px-4 md:w-1/2"></div>
                                 <div data-aos='fade-left' class="w-full px-4 md:w-1/2">
-                                    <div class="relative z-10 mb-10 rounded-lg bg-light-bg py-8 px-6 dark:bg-[#131b4c] md:ml-3 md:mb-0 lg:ml-5">
+                                    <div class="relative z-10 mb-10 rounded-lg bg-black-25 py-8 px-6 dark:bg-[#131b4c] md:ml-3 md:mb-0 lg:ml-5">
                                         <span
                                             class="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
                                         <span
@@ -710,7 +913,7 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div data-aos="fade-up" data-aos-delay="150" className="accordion space-y-5 md:pt-12 md:pb-12 pb-8 lg:w-9/12 flex flex-col mx-auto">
+                    <div data-aos-delay="150" className="accordion space-y-5 md:pb-12 pb-8 lg:w-9/12 flex flex-col mx-auto">
                         {accordionData.map(({ numbers, title, content }) => (
                             <Accordion title={title} content={content} numbers={numbers} />
                         ))}

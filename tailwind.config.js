@@ -1,12 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
     extend: {},
     colors: {
 
       black: {
-        "25": "rgba(255, 255, 255, 0.03);",
+        "25": "rgb(245, 248, 255, 1);",
         "50": "#141619",
         "100": "#000",
       },
@@ -28,12 +29,6 @@ module.exports = {
       },
       purple: {
         "100": "#8E54E9",
-      },
-      feature: {
-        "50": "#4776E6",
-        "100": "#8E54E9",
-        "200": "#FF4880",
-        "300": "#F7931A",
       }
     },
     fontFamily: {

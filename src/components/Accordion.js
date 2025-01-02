@@ -4,11 +4,11 @@ const Accordion = ({ title, content }) => {
     const [isActive, setIsActive] = useState(false);
 
     return (
-        <div className="accordion-item md:p-6 p-4 cursor-pointer rounded-md bg-[#131b4c]">
-            <div className="accordion-title flex justify-between items-start"
+        <div data-aos='fade-up' data-aos-delay='50' className="accordion-item p-4 cursor-pointer bg-black-25 rounded-md dark:bg-[#131b4c]">
+            <div className="accordion-title flex justify-between items-start dark:text-white-100 text-blue-50"
                 onClick={() => setIsActive(!isActive)}>
 
-                <div className='font-libre font-semibold lg:text-xl text-white-100'>
+                <div className='font-libre font-semibold lg:text-lg'>
                     {title}
                 </div>
 
@@ -17,7 +17,7 @@ const Accordion = ({ title, content }) => {
                 </div>
 
             </div>
-            {isActive && <div className="accordion-content text-white-100 pt-6 duration-100">{content}</div>}
+            {isActive && <div className="accordion-content pt-6 duration-100">{content}</div>}
         </div>
     );
 };
