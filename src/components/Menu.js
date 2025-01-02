@@ -25,7 +25,7 @@ export default function Menu() {
           <ul className="text-md flex justify-center gap-x-12 pt-4 items-center text-white-100">
             <li><a href="/" className="">Home</a></li>
             <li><a href="#projects" className="text-white-50 hover:text-white-100">Our Projects</a></li>
-            <li><a href="#tokenomics" className="text-white-50 hover:text-white-100">Tokenomics</a></li>
+            <li><a href="#features" className="text-white-50 hover:text-white-100">Features</a></li>
             <li><a href="#roadmap" className="text-white-50 hover:text-white-100">Roadmap</a></li>
           </ul>
         </nav>
@@ -69,7 +69,7 @@ export default function Menu() {
             <ul className='space-y-12'>
               <a onClick={ToggleSidebar} href="/"><li className='pt-6'>Home</li></a>
               <a onClick={ToggleSidebar} href="#projects"><li className='pt-6'>Our Projects</li></a>
-              <a onClick={ToggleSidebar} href="#tokenomics"><li className='pt-6'>Tokenomics</li></a>
+              <a onClick={ToggleSidebar} href="#features"><li className='pt-6'>Features</li></a>
               <a onClick={ToggleSidebar} href="#roadmap"><li className='pt-6'>Roadmap</li></a>
 
               <button onClick={() => setShow(!show)} className="bg-gradient rounded-lg p-3 w-full text-white-100 text-center">

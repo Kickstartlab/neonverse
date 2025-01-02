@@ -60,7 +60,7 @@ export default function Home() {
                     <Menu />
                     <div className="flex flex-col justify-center items-center gap-y-4 lg:py-28 py-12 text-center lg:w-9/12 mx-auto">
 
-                        <p className='lg:py-3 lg:text-xl text-white-50'>
+                        <p data-aos='fade-in' dta-aos-delay='150' className='lg:py-3 lg:text-xl text-white-50'>
                             Welcome to Neonverse
                         </p>
 
@@ -74,7 +74,7 @@ export default function Home() {
                             </h2>
                         </div>
 
-                        <p className='py-5 flex mx-auto w-10/12 lg:leading-relaxed'>
+                        <p data-aos='fade-in' dta-aos-delay='150' className='md:py-5 flex mx-auto w-10/12 lg:leading-relaxed'>
                             Neonverse is a visionary ecosystem designed to offer a wide array of platforms, rewarding experiences, and sustainable solutions. From lotteries and token creation to entertainment and beyond, Neonverse aims to lead the way in digital innovation.
                         </p>
 
@@ -90,7 +90,7 @@ export default function Home() {
                                 </button>
                             </a>
 
-                            <a href="https://t.me/arbitrumclassic_arb" className=''>
+                            <a href="/" className=''>
                                 <button className="text-white-100 font-semibold md:text-lg text-sm px-5 py-3 rounded-lg border border-blue-100">
                                     Join community
                                 </button>
@@ -102,7 +102,7 @@ export default function Home() {
 
             {/* Features section */}
 
-            <section id="features" class="py-16 relative z-10 lg:px-20 px-5">
+            <section id="features" class="md:py-16 py-6 relative z-10 lg:px-20 px-5">
                 <div class="container mx-auto">
                     <div class="mx-auto mb-16 max-w-[590px] text-center">
                         <h2 class="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px] font-libre">
@@ -272,7 +272,7 @@ export default function Home() {
 
                     <div className="flex flex-col mx-auto border-gradient lg:w-11/12 md:p-16 p-6 dark:bg-[#131b4c] rounded-lg md:gap-y-24 gap-y-8">
 
-                        <div className='lg:flex items-center gap-20 lg:space-y-0 space-y-6'>
+                        <div className='lg:flex items-center gap-20 lg:space-y-0 space-y-8'>
                             <div data-aos='zoom-in' class="w-full px-4 lg:w-1/2">
                                 <PieChart className='md:w-96 w-64 flex mx-auto'
                                     data={[
@@ -342,7 +342,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className='lg:flex items-center flex-row-reverse gap-20 lg:space-y-0 space-y-6'>
+                        <div className='lg:flex items-center flex-row-reverse gap-20 lg:space-y-0 space-y-8'>
                             <div data-aos='zoom-in' class="w-full px-4 lg:w-1/2">
                                 <PieChart className='md:w-96 w-64 flex mx-auto'
                                     data={[
@@ -402,7 +402,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className='lg:flex items-center gap-20 lg:space-y-0 space-y-6'>
+                        <div className='lg:flex items-center gap-20 lg:space-y-0 space-y-8'>
                             <div data-aos='zoom-in' class="w-full px-4 lg:w-1/2">
                                 <PieChart className='md:w-96 w-64 flex mx-auto'
                                     data={[
@@ -480,7 +480,7 @@ export default function Home() {
 
             {/* roadmap section */}
 
-            <section id="roadmap" class="relative z-10 py-[120px] lg:px-20 px-5">
+            <section id="roadmap" class="relative z-10 md:py-20 py-8 lg:px-20 px-5">
                 <div class="container mx-auto">
                     <div class="mx-auto mb-16 max-w-[590px] text-center md:mb-20">
                         <span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl">
@@ -710,7 +710,7 @@ export default function Home() {
                         </p>
                     </div>
 
-                    <div data-aos="fade-up" data-aos-delay="150" className="accordion space-y-5 py-12 lg:w-9/12 flex flex-col mx-auto">
+                    <div data-aos="fade-up" data-aos-delay="150" className="accordion space-y-5 md:pt-12 md:pb-12 pb-8 lg:w-9/12 flex flex-col mx-auto">
                         {accordionData.map(({ numbers, title, content }) => (
                             <Accordion title={title} content={content} numbers={numbers} />
                         ))}
