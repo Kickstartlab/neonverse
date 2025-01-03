@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import Accordion from './Accordion'
-import Particle from './Particle'
+// import Particle from './Particle'
 import heroshape1 from '../assets/heroshape1.svg';
 import heroshape2 from '../assets/heroshape2.svg';
 import faqshape1 from '../assets/faqshape1.svg';
@@ -461,8 +461,6 @@ export default function Home() {
 
                 </div>
             </section>
-
-<Particle />
 
             {/* Features section */}
 
