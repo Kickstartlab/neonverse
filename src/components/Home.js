@@ -305,18 +305,18 @@ export default function Home() {
 
             {/* Features section */}
 
-            <section id="features" class="md:py-16 py-6 relative z-10 lg:px-20 px-5">
-                <div class="container mx-auto">
-                    <div class="mx-auto mb-16 max-w-[590px] text-center">
-                        <h2 class="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px] font-libre">
+            <section id="features" className="md:py-16 py-6 relative z-10 lg:px-20 px-5">
+                <div className="container mx-auto">
+                    <div className="mx-auto mb-16 max-w-[590px] text-center">
+                        <h2 className="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px] font-libre">
                             Best Features
                         </h2>
                     </div>
 
-                    <div class="-mx-4 flex flex-wrap justify-center">
-                        <div data-aos='fade-up' data-aos-delay='0' class="w-full px-4 md:w-1/2 lg:w-1/3">
-                            <div class="mx-auto mb-14 max-w-[370px] text-center">
-                                <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
+                    <div className="-mx-4 flex flex-wrap justify-center">
+                        <div data-aos='fade-up' data-aos-delay='0' className="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div className="mx-auto mb-14 max-w-[370px] text-center">
+                                <div className="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M20 1.66675L5 8.33341V18.3334C5 27.5834 11.4 36.2334 20 38.3334C28.6 36.2334 35 27.5834 35 18.3334V8.33341L20 1.66675ZM20 19.9834H31.6667C30.7833 26.8501 26.2 32.9667 20 34.8834V20.0001H8.33333V10.5001L20 5.31675V19.9834Z"
@@ -325,20 +325,20 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 class="mb-3 text-xl font-bold text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 className="mb-3 text-xl font-bold text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
                                         Built on Binance Smart Chain
                                     </h3>
 
                                     <p
-                                        class="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
                                         Enjoy low transaction fees and high-speed processing, ensuring seamless user experiences across our ecosystem.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div data-aos='fade-up' data-aos-delay='100' class="w-full px-4 md:w-1/2 lg:w-1/3">
-                            <div class="mx-auto mb-14 max-w-[370px] text-center">
-                                <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
+                        <div data-aos='fade-up' data-aos-delay='100' className="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div className="mx-auto mb-14 max-w-[370px] text-center">
+                                <div className="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M33.3333 9.99992H29.6999C29.8833 9.48325 29.9999 8.91658 29.9999 8.33325C29.9999 5.56659 27.7666 3.33325 24.9999 3.33325C23.2499 3.33325 21.7333 4.23325 20.8333 5.58325L19.9999 6.69992L19.1666 5.56659C18.2666 4.23325 16.7499 3.33325 14.9999 3.33325C12.2333 3.33325 9.99992 5.56659 9.99992 8.33325C9.99992 8.91658 10.1166 9.48325 10.2999 9.99992H6.66659C4.81659 9.99992 3.34992 11.4833 3.34992 13.3333L3.33325 31.6666C3.33325 33.5166 4.81659 34.9999 6.66659 34.9999H33.3333C35.1833 34.9999 36.6666 33.5166 36.6666 31.6666V13.3333C36.6666 11.4833 35.1833 9.99992 33.3333 9.99992ZM24.9999 6.66659C25.9166 6.66659 26.6666 7.41658 26.6666 8.33325C26.6666 9.24992 25.9166 9.99992 24.9999 9.99992C24.0833 9.99992 23.3333 9.24992 23.3333 8.33325C23.3333 7.41658 24.0833 6.66659 24.9999 6.66659ZM14.9999 6.66659C15.9166 6.66659 16.6666 7.41658 16.6666 8.33325C16.6666 9.24992 15.9166 9.99992 14.9999 9.99992C14.0833 9.99992 13.3333 9.24992 13.3333 8.33325C13.3333 7.41658 14.0833 6.66659 14.9999 6.66659ZM33.3333 31.6666H6.66659V28.3333H33.3333V31.6666ZM33.3333 23.3333H6.66659V13.3333H15.1333L11.6666 18.0499L14.3666 19.9999L18.3333 14.5999L19.9999 12.3333L21.6666 14.5999L25.6333 19.9999L28.3333 18.0499L24.8666 13.3333H33.3333V23.3333Z"
@@ -347,20 +347,20 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 className="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
                                         Rewarding Tokenomics
                                     </h3>
 
                                     <p
-                                        class="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
                                         Holders of each utility token are rewarded directly with a share of profits, promoting sustainable growth and community participation.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div data-aos='fade-up' data-aos-delay='200' class="w-full px-4 md:w-1/2 lg:w-1/3">
-                            <div class="mx-auto mb-14 max-w-[370px] text-center">
-                                <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
+                        <div data-aos='fade-up' data-aos-delay='200' className="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div className="mx-auto mb-14 max-w-[370px] text-center">
+                                <div className="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M20 3.33325L10.8334 18.3333H29.1667L20 3.33325Z" fill="white" />
                                         <path
@@ -371,20 +371,20 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 className="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
                                         SAFU-Certified Development
                                     </h3>
 
                                     <p
-                                        class="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
                                         Our utilities are created by a trusted SAFU (Secure Asset Fund for Users) developer, ensuring transparency, security, and reliability.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div data-aos='fade-up' data-aos-delay='300' class="w-full px-4 md:w-1/2">
-                            <div class="mx-auto mb-14 max-w-[470px] text-center">
-                                <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
+                        <div data-aos='fade-up' data-aos-delay='300' className="w-full px-4 md:w-1/2">
+                            <div className="mx-auto mb-14 max-w-[470px] text-center">
+                                <div className="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M5 24.9999H18.3333V21.6666H5V24.9999ZM5 31.6666H18.3333V28.3333H5V31.6666ZM5 18.3333H18.3333V14.9999H5V18.3333ZM5 8.33325V11.6666H18.3333V8.33325H5ZM21.6667 8.33325H35V31.6666H21.6667V8.33325Z"
@@ -393,20 +393,20 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 className="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
                                         Profit-Generating Utilities
                                     </h3>
 
                                     <p
-                                        class="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
                                         Our business-focused utilities are designed to generate revenue, enabling consistent buybacks and value appreciation for token holders.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div data-aos='fade-up' data-aos-delay='400' class="w-full px-4 md:w-1/2">
-                            <div class="mx-auto mb-14  max-w-[470px] text-center">
-                                <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
+                        <div data-aos='fade-up' data-aos-delay='400' className="w-full px-4 md:w-1/2">
+                            <div className="mx-auto mb-14  max-w-[470px] text-center">
+                                <div className="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             d="M35 30V31.6667C35 33.5 33.5 35 31.6667 35H8.33333C6.48333 35 5 33.5 5 31.6667V8.33333C5 6.5 6.48333 5 8.33333 5H31.6667C33.5 5 35 6.5 35 8.33333V10H20C18.15 10 16.6667 11.5 16.6667 13.3333V26.6667C16.6667 28.5 18.15 30 20 30H35ZM20 26.6667H36.6667V13.3333H20V26.6667ZM26.6667 22.5C25.2833 22.5 24.1667 21.3833 24.1667 20C24.1667 18.6167 25.2833 17.5 26.6667 17.5C28.05 17.5 29.1667 18.6167 29.1667 20C29.1667 21.3833 28.05 22.5 26.6667 22.5Z"
@@ -415,12 +415,12 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 className="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
                                         Utility-First Approach
                                     </h3>
 
                                     <p
-                                        class="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
                                         We deliver value before promises. All utilities are ready and operational before presale, ensuring you invest in proven solutions, not just ideas
                                     </p>
                                 </div>
@@ -444,7 +444,7 @@ export default function Home() {
                     <div className="flex flex-col mx-auto border-gradient lg:w-11/12 md:p-16 p-5 dark:bg-[#131b4c] bg-black-25 rounded-lg md:gap-y-24 gap-y-8">
 
                         <div className='lg:flex items-center gap-20 lg:space-y-0 space-y-8'>
-                            <div data-aos='zoom-in' class="w-full px-4 lg:w-1/2">
+                            <div data-aos='zoom-in' className="w-full px-4 lg:w-1/2">
                                 <PieChart className='md:w-96 flex mx-auto'
                                     data={[
                                         { title: ' 5% Sell Tax', value: 30, color: '#4776e6' },
@@ -514,7 +514,7 @@ export default function Home() {
                         </div>
 
                         <div className='lg:flex items-center flex-row-reverse gap-20 lg:space-y-0 space-y-8'>
-                            <div data-aos='zoom-in' class="w-full px-4 lg:w-1/2">
+                            <div data-aos='zoom-in' className="w-full px-4 lg:w-1/2">
                                 <PieChart className='md:w-96 flex mx-auto'
                                     data={[
                                         { title: `5% Sell Tax`, value: 40, color: '#4776e6' },
@@ -574,7 +574,7 @@ export default function Home() {
                         </div>
 
                         <div className='lg:flex items-center gap-20 lg:space-y-0 space-y-8'>
-                            <div data-aos='zoom-in' class="w-full px-4 lg:w-1/2">
+                            <div data-aos='zoom-in' className="w-full px-4 lg:w-1/2">
                                 <PieChart className='md:w-96 flex mx-auto'
                                     data={[
                                         { title: '5% Sell Tax', value: 40, color: '#4776e6' },
@@ -644,49 +644,49 @@ export default function Home() {
                 </div>
 
 
-                <div class="absolute right-0 -top-32 -z-10">
+                <div className="absolute right-0 -top-32 -z-10">
                     <img src={projectshape1} alt="shape" />
                 </div>
             </section>
 
             {/* roadmap section */}
 
-            {/* <section id="roadmap" class="relative z-10 md:py-20 py-8 lg:px-20 px-5">
-                <div class="container mx-auto">
-                    <div class="mx-auto mb-16 max-w-[590px] text-center md:mb-20">
-                        <span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl">
+            {/* <section id="roadmap" className="relative z-10 md:py-20 py-8 lg:px-20 px-5">
+                <div className="container mx-auto">
+                    <div className="mx-auto mb-16 max-w-[590px] text-center md:mb-20">
+                        <span className="mb-3 text-lg font-bold uppercase text-primary sm:text-xl">
                             ROADMAP
                         </span>
-                        <h2 class="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px] font-libre">
+                        <h2 className="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px] font-libre">
                             The Timeline
                         </h2>
-                        <p class="text-lg font-medium text-body-color-2 dark:text-body-color">
+                        <p className="text-lg font-medium text-body-color-2 dark:text-body-color">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
                             congue arcu, In et dignissim quam condimentum vel.
                         </p>
                     </div>
 
-                    <div class="-mx-4 flex justify-center">
-                        <div class="w-full px-4 lg:w-10/12 xl:w-9/12">
-                            <div class="relative -mx-4 flex flex-wrap md:py-14 lg:py-20">
+                    <div className="-mx-4 flex justify-center">
+                        <div className="w-full px-4 lg:w-10/12 xl:w-9/12">
+                            <div className="relative -mx-4 flex flex-wrap md:py-14 lg:py-20">
                                 <span
-                                    class="absolute top-0 left-2 hidden h-full w-[3px] bg-black-25 dark:bg-[#2D2C4A] md:left-1/2 md:block"></span>
-                                <div class="w-full px-4 md:w-1/2">
-                                    <div data-aos='fade-right' class="relative z-10 mb-10 rounded-lg bg-black-25 py-8 px-6 dark:bg-[#131b4c] md:mr-3 md:mb-0 md:text-right lg:mr-5">
+                                    className="absolute top-0 left-2 hidden h-full w-[3px] bg-black-25 dark:bg-[#2D2C4A] md:left-1/2 md:block"></span>
+                                <div className="w-full px-4 md:w-1/2">
+                                    <div data-aos='fade-right' className="relative z-10 mb-10 rounded-lg bg-black-25 py-8 px-6 dark:bg-[#131b4c] md:mr-3 md:mb-0 md:text-right lg:mr-5">
                                         <span
-                                            class="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
+                                            className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
                                         <span
-                                            class="absolute -right-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-light-bg dark:bg-[#131b4c] md:block"></span>
-                                        <h3 class="mb-3 text-xl font-bold text-black dark:text-white">
+                                            className="absolute -right-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-light-bg dark:bg-[#131b4c] md:block"></span>
+                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
                                             Feb 25,2020
                                         </h3>
-                                        <p class="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                             Nunc sed congue arcu, In et dignissim quam condimentum vel
                                         </p>
 
-                                        <a href="" class="inline-flex items-center justify-center rounded-full bg-white p-2 pr-3">
-                                            <span class="pr-1">
+                                        <a href="" className="inline-flex items-center justify-center rounded-full bg-white p-2 pr-3">
+                                            <span className="pr-1">
                                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path
                                                         d="M17.7287 11.1771C16.5267 15.9986 11.6433 18.9329 6.82128 17.7306C2.00125 16.5285 -0.933006 11.6449 0.269537 6.82378C1.47102 2.00177 6.3544 -0.932704 11.175 0.269311C15.9966 1.47133 18.9307 6.35553 17.7286 11.1772L17.7287 11.1771H17.7287Z"
@@ -696,11 +696,11 @@ export default function Home() {
                                                         fill="white" />
                                                 </svg>
                                             </span>
-                                            <span class="pr-2 text-xs font-semibold text-body-color-2 dark:text-body-color">
+                                            <span className="pr-2 text-xs font-semibold text-body-color-2 dark:text-body-color">
                                                 Bitcoin
                                             </span>
 
-                                            <span class="text-[8px] font-semibold text-body-color-2 dark:text-[#959595]">
+                                            <span className="text-[8px] font-semibold text-body-color-2 dark:text-[#959595]">
                                                 4.5%
                                             </span>
                                             <span>
@@ -713,24 +713,24 @@ export default function Home() {
                                         </a>
                                     </div>
                                 </div>
-                                <div class="w-full px-4 md:w-1/2"></div>
-                                <div class="w-full px-4 md:w-1/2"></div>
-                                <div data-aos='fade-left' class="w-full px-4 md:w-1/2">
-                                    <div class="relative z-10 mb-10 rounded-lg bg-black-25 py-8 px-6 dark:bg-[#131b4c] md:ml-3 md:mb-0 lg:ml-5">
+                                <div className="w-full px-4 md:w-1/2"></div>
+                                <div className="w-full px-4 md:w-1/2"></div>
+                                <div data-aos='fade-left' className="w-full px-4 md:w-1/2">
+                                    <div className="relative z-10 mb-10 rounded-lg bg-black-25 py-8 px-6 dark:bg-[#131b4c] md:ml-3 md:mb-0 lg:ml-5">
                                         <span
-                                            class="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
+                                            className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
                                         <span
-                                            class="absolute -left-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-black-25 dark:bg-[#131b4c] md:block"></span>
-                                        <h3 class="mb-3 text-xl font-bold text-black dark:text-white">
+                                            className="absolute -left-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-black-25 dark:bg-[#131b4c] md:block"></span>
+                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
                                             Jan 14,2021
                                         </h3>
-                                        <p class="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                             Nunc sed congue arcu, In et dignissim quam condimentum vel
                                         </p>
 
-                                        <a href="" class="inline-flex items-center justify-center rounded-full bg-white p-2 pr-3">
-                                            <span class="pr-1">
+                                        <a href="" className="inline-flex items-center justify-center rounded-full bg-white p-2 pr-3">
+                                            <span className="pr-1">
                                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path
                                                         d="M17.7307 11.1771C16.5286 15.9986 11.6446 18.9329 6.82205 17.7306C2.00148 16.5285 -0.933111 11.6449 0.269567 6.82378C1.47119 2.00177 6.35511 -0.932704 11.1762 0.269311C15.9985 1.47133 18.9329 6.35553 17.7306 11.1772L17.7307 11.1771H17.7307Z"
@@ -753,11 +753,11 @@ export default function Home() {
                                                     </defs>
                                                 </svg>
                                             </span>
-                                            <span class="pr-2 text-xs font-semibold text-body-color-2 dark:text-body-color">
+                                            <span className="pr-2 text-xs font-semibold text-body-color-2 dark:text-body-color">
                                                 ethereum
                                             </span>
 
-                                            <span class="text-[8px] font-semibold text-body-color-2 dark:text-[#959595]">
+                                            <span className="text-[8px] font-semibold text-body-color-2 dark:text-[#959595]">
                                                 2.5%
                                             </span>
                                             <span>
@@ -770,23 +770,23 @@ export default function Home() {
                                         </a>
                                     </div>
                                 </div>
-                                <div data-aos='fade-right' class="w-full px-4 md:w-1/2">
+                                <div data-aos='fade-right' className="w-full px-4 md:w-1/2">
                                     <div
-                                        class="relative z-10 mb-10 rounded-lg bg-black-25 py-8 px-6 dark:bg-[#131b4c] md:mr-3 md:mb-0 md:text-right lg:mr-5">
+                                        className="relative z-10 mb-10 rounded-lg bg-black-25 py-8 px-6 dark:bg-[#131b4c] md:mr-3 md:mb-0 md:text-right lg:mr-5">
                                         <span
-                                            class="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
+                                            className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
                                         <span
-                                            class="absolute -right-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-black-25 dark:bg-[#131b4c] md:block"></span>
-                                        <h3 class="mb-3 text-xl font-bold text-black dark:text-white">
+                                            className="absolute -right-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-black-25 dark:bg-[#131b4c] md:block"></span>
+                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
                                             Mar 30,2021
                                         </h3>
-                                        <p class="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                             Nunc sed congue arcu, In et dignissim quam condimentum vel
                                         </p>
 
-                                        <a href="" class="inline-flex items-center justify-center rounded-full bg-white p-2 pr-3">
-                                            <span class="pr-1">
+                                        <a href="" className="inline-flex items-center justify-center rounded-full bg-white p-2 pr-3">
+                                            <span className="pr-1">
                                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path
                                                         d="M17.7287 11.1771C16.5267 15.9986 11.6433 18.9329 6.82128 17.7306C2.00125 16.5285 -0.933006 11.6449 0.269537 6.82378C1.47102 2.00177 6.3544 -0.932704 11.175 0.269311C15.9966 1.47133 18.9307 6.35553 17.7286 11.1772L17.7287 11.1771H17.7287Z"
@@ -796,11 +796,11 @@ export default function Home() {
                                                         fill="white" />
                                                 </svg>
                                             </span>
-                                            <span class="pr-2 text-xs font-semibold text-body-color-2 dark:text-body-color">
+                                            <span className="pr-2 text-xs font-semibold text-body-color-2 dark:text-body-color">
                                                 chainlink
                                             </span>
 
-                                            <span class="text-[8px] font-semibold text-body-color-2 dark:text-[#959595]">
+                                            <span className="text-[8px] font-semibold text-body-color-2 dark:text-[#959595]">
                                                 4.5%
                                             </span>
                                             <span>
@@ -813,24 +813,24 @@ export default function Home() {
                                         </a>
                                     </div>
                                 </div>
-                                <div class="w-full px-4 md:w-1/2"></div>
-                                <div class="w-full px-4 md:w-1/2"></div>
-                                <div data-aos='fade-left' class="w-full px-4 md:w-1/2">
-                                    <div class="relative z-10 mb-10 rounded-lg bg-black-25 py-8 px-6 dark:bg-[#131b4c] md:ml-3 md:mb-0 lg:ml-5">
+                                <div className="w-full px-4 md:w-1/2"></div>
+                                <div className="w-full px-4 md:w-1/2"></div>
+                                <div data-aos='fade-left' className="w-full px-4 md:w-1/2">
+                                    <div className="relative z-10 mb-10 rounded-lg bg-black-25 py-8 px-6 dark:bg-[#131b4c] md:ml-3 md:mb-0 lg:ml-5">
                                         <span
-                                            class="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
+                                            className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
                                         <span
-                                            class="absolute -left-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-light-bg dark:bg-[#131b4c] md:block"></span>
-                                        <h3 class="mb-3 text-xl font-bold text-black dark:text-white">
+                                            className="absolute -left-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-light-bg dark:bg-[#131b4c] md:block"></span>
+                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
                                             Dec 19,2021
                                         </h3>
-                                        <p class="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                             Nunc sed congue arcu, In et dignissim quam condimentum vel
                                         </p>
 
-                                        <a href="" class="inline-flex items-center justify-center rounded-full bg-white p-2 pr-3">
-                                            <span class="pr-1">
+                                        <a href="" className="inline-flex items-center justify-center rounded-full bg-white p-2 pr-3">
+                                            <span className="pr-1">
                                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path
                                                         d="M17.7307 11.1771C16.5286 15.9986 11.6446 18.9329 6.82205 17.7306C2.00148 16.5285 -0.933111 11.6449 0.269567 6.82378C1.47119 2.00177 6.35511 -0.932704 11.1762 0.269311C15.9985 1.47133 18.9329 6.35553 17.7306 11.1772L17.7307 11.1771H17.7307Z"
@@ -840,11 +840,11 @@ export default function Home() {
                                                         fill="white" />
                                                 </svg>
                                             </span>
-                                            <span class="pr-2 text-xs font-semibold text-body-color-2 dark:text-body-color">
+                                            <span className="pr-2 text-xs font-semibold text-body-color-2 dark:text-body-color">
                                                 polygon
                                             </span>
 
-                                            <span class="text-[8px] font-semibold text-body-color-2 dark:text-[#959595]">
+                                            <span className="text-[8px] font-semibold text-body-color-2 dark:text-[#959595]">
                                                 2.5%
                                             </span>
                                             <span>
@@ -862,20 +862,20 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div class="absolute left-0 bottom-0 -z-10">
+                <div className="absolute left-0 bottom-0 -z-10">
                     <img src={timeline} alt="shape" />
                 </div>
             </section> */}
 
             {/* faq section */}
 
-            <section id="faq" class="relative z-10 bg-light-bg dark:bg-[#14102C] lg:px-20 px-5 pb-8">
-                <div class="container mx-auto">
-                    <div class="mx-auto mb-16 max-w-[630px] text-center md:my-20 my-8">
-                        <h2 class="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px]">
+            <section id="faq" className="relative z-10 bg-light-bg dark:bg-[#14102C] lg:px-20 px-5 pb-8">
+                <div className="container mx-auto">
+                    <div className="mx-auto mb-16 max-w-[630px] text-center md:my-20 my-8">
+                        <h2 className="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px]">
                             Frequently Asked Questions
                         </h2>
-                        <p class="mx-auto max-w-[590px] text-lg font-medium text-body-color-2 dark:text-body-color">
+                        <p className="mx-auto max-w-[590px] text-lg font-medium text-body-color-2 dark:text-body-color">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
                             congue arcu, In et dignissim quam condimentum vel.
                         </p>
@@ -888,10 +888,10 @@ export default function Home() {
                     </div>
                 </div >
 
-                <div class="absolute left-0 -bottom-36 -z-10">
+                <div className="absolute left-0 -bottom-36 -z-10">
                     <img src={faqshape1} alt="shape" />
                 </div>
-                <div class="absolute right-0 -top-36 -z-10">
+                <div className="absolute right-0 -top-36 -z-10">
                     <img src={faqshape2} alt="shape" />
                 </div>
             </section >

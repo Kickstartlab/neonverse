@@ -33,25 +33,38 @@ export default function Menu() {
     setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
+  const [isSticky, setIsSticky] = useState(false);
+
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
 
     <header>
 
-      <div className="lg:flex hidden items-center justify-between font-urbanist h-24">
-        <a href="/" className="">
-          <img src={logo} alt='logo' className='w-24 dark:block hidden'></img>
-          <img src={logo_light} alt='logo' className='w-20 dark:hidden block'></img>
+      <div
+        className={`lg:flex hidden items-center justify-between font-urbanist h-24 transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 w-full dark:bg-blue-50 bg-[rgba(255, 255, 255, 0.2)] shadow-md z-50 px-20 container mx-auto h-[75px] backdrop-blur-md' : ''}`}>
+        <a href="/" className="lg:w-2/12">
+          <img src={logo} alt='logo' className={`w-24 dark:block hidden ${isSticky ? 'w-16' : ''}`}></img>
+          <img src={logo_light} alt='logo' className={`w-20 dark:hidden block ${isSticky ? 'w-16' : ''}`}></img>
         </a>
 
-        <nav>
-          <ul className="text-md flex justify-center gap-x-12 pt-4 items-center text-blue-50 dark:text-white-100">
+        <nav className='w-6/12'>
+          <ul className="text-md flex justify-center gap-x-12 pt-4 -mt-2 text-blue-50 dark:text-white-100">
             <li><a href="/" className="">Home</a></li>
-            <li><a href="#features" className="dark:text-white-50 text-blue-50 hover:text-white-100">Features</a></li>
-            <li><a href="#projects" className="dark:text-white-50 text-blue-50 hover:text-white-100">Our Projects</a></li>
-            <li><a href="#roadmap" className="dark:text-white-50 text-blue-50 hover:text-white-100">Roadmap</a></li>
-            <a href={whitepaper} target='_blank' rel='noopener noreferrer' className='dark:text-white-50 text-blue-50 hover:text-white-100'>
-              <li>Whitepaper</li>
-            </a>
+            <li><a href="#features" className="dark:text-white-50 text-blue-50 dark:hover:text-white-100">Features</a></li>
+            <li><a href="#projects" className="dark:text-white-50 text-blue-50 dark:hover:text-white-100">Our Projects</a></li>
           </ul>
         </nav>
 
@@ -93,14 +106,14 @@ export default function Menu() {
           </div>
 
           <a href={whitepaper} target='_blank' rel='noopener noreferrer'>
-            <button className="bg-gradient rounded-lg py-3 lg:px-6 px-4 font-semibold text-white-100">
+            <button className={`bg-gradient rounded-lg py-3 px-6 font-semibold text-white-100 ${isSticky ? 'py-2 px-5' : ''}`}>
               Whitepaper
             </button>
           </a>
         </div>
       </div>
 
-      <div className="lg:hidden flex items-center justify-between py-4 font-montserat">
+      <div className={`lg:hidden flex items-center justify-between py-4 font-urbanist h-24 transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 right-0 w-full dark:bg-blue-50 bg-[rgba(255, 255, 255, 0.2)] shadow-md z-50 px-6 h-[75px] backdrop-blur-md' : ''}`}>
         <a href="/" className="">
           <img src={logo} alt='logo' className='w-16 dark:block hidden'></img>
           <img src={logo_light} alt='logo' className='w-14 dark:hidden block'></img>
@@ -187,7 +200,6 @@ export default function Menu() {
             <a href="/"><li className=''>Home</li></a>
             <a href="#features"><li className='pt-6'>Features</li></a>
             <a href="#projects"><li className='pt-6'>Our Projects</li></a>
-            <a href="#roadmap"><li className='pt-6'>Roadmap</li></a>
             <a href={whitepaper} target='_blank' rel='noopener noreferrer'>
               <li className='pt-6'>Whitepaper</li>
             </a>

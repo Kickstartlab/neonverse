@@ -35,7 +35,7 @@ export default function Footer() {
 
         <div className='space-y-3'>
           <div className='flex items-center gap-x-5'>
-            <a href='/' className=''>
+            <a href='https://t.me/neonverse_official' className=''>
               <img src={telegram} alt='telegram' className='w-10 rounded-full hover:scale-125 duration-300'></img>
             </a>
             <a href='https://x.com/neonverseX' className=''>
@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div class="absolute bottom-0 right-0 -z-10">
+      <div className="absolute bottom-0 right-0 -z-10">
         <img src={footershape1} alt="shape" />
       </div>
     </footer>
