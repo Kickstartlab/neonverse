@@ -6,8 +6,13 @@ import heroshape1 from '../assets/heroshape1.svg';
 import heroshape2 from '../assets/heroshape2.svg';
 import faqshape1 from '../assets/faqshape1.svg';
 import faqshape2 from '../assets/faqshape2.svg';
+import project1 from '../assets/project1.png';
+import project2 from '../assets/project2.png';
+import project3 from '../assets/project3.png';
 import projectshape1 from '../assets/projectshape1.svg';
 import timeline from '../assets/timeline.svg';
+import testimonial_shape from '../assets/testimonial-shape.svg';
+
 import { PieChart } from 'react-minimal-pie-chart';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -303,12 +308,165 @@ export default function Home() {
                 </div>
             </div>
 
+            {/* about section */}
+
+            <section id="about" className="bg-light-bg lg:px-20 px-5 lg:py-12 py-6 dark:bg-[#14102C]">
+                <div className="container mx-auto">
+                    <div className="mx-auto mb-16 max-w-[590px] text-center md:mb-20">
+                        <h2 className="mb-3 text-3xl font-bold font-libre md:text-[45px]">
+                            About Us – Neonverse
+                        </h2>
+                        <p className="text-lg font-medium">
+                            At Neonverse, we envision a decentralized world where innovation, creativity, and financial freedom converge. Our mission is to empower individuals and businesses to take charge of their digital futures through cutting-edge blockchain solutions.
+                        </p>
+                    </div>
+
+                    <div className="-mx-4 flex flex-wrap justify-center items-baseline">
+
+                        <div data-aos='fade-up' data-aos-delay='0' className="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div className="mx-auto mb-14 max-w-[370px] text-center space-y-6 bg-black-25 dark:bg-[#131B4D] p-5 rounded-3xl shadow-lg">
+                                <img src={project3} alt='about' className='max-w-[320px] flex mx-auto rounded-2xl'></img>
+                                <div>
+                                    <h3 className="mb-3 font-bold text-xl font-libre">
+                                        Our Mission
+                                    </h3>
+                                    <p className="text-base font-medium">
+                                        To bridge the gap between decentralized technology and everyday life, empowering communities worldwide with tools and opportunities that drive growth and freedom.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos='fade-up' data-aos-delay='100' className="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div className="mx-auto mb-14 max-w-[370px] text-center space-y-6 bg-black-25 dark:bg-[#131B4D] p-5 rounded-3xl shadow-lg">
+                                <img src={project2} alt='about' className='max-w-[320px] flex mx-auto rounded-2xl'></img>
+                                <div>
+                                    <h3 className="mb-3 font-bold text-xl font-libre">
+                                        Why Neonverse?
+                                    </h3>
+                                    <p className="text-base font-medium">
+                                        We’re committed to creating a future where technology serves as a tool for empowerment, not just convenience. By integrating decentralized finance (DeFi) with real-world applications, we ensure transparency, inclusivity, and security in every project.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos='fade-up' data-aos-delay='200' className="w-full px-4 md:w-1/2 lg:w-1/3">
+                            <div className="mx-auto mb-14 max-w-[370px] text-center space-y-6 bg-black-25 dark:bg-[#131B4D] p-5 rounded-3xl shadow-lg">
+                                <img src={project1} alt='about' className='max-w-[320px] flex mx-auto rounded-2xl'></img>
+                                <div>
+                                    <h3 className="mb-3 font-bold text-xl font-libre">
+                                        Our Vision
+                                    </h3>
+                                    <p className="text-base font-medium">
+                                        To build a thriving ecosystem where blockchain technology meets innovation, transforming industries and lives globally.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='md:pt-12 mt-6'>
+                        <div className="mx-auto mb-16 max-w-[590px] text-center md:mb-20">
+                            <h2 className="mb-3 text-3xl font-bold font-libre md:text-[45px]">
+                                Our Ecosystem
+                            </h2>
+                            <p className="text-lg font-medium">
+                                Neonverse is not just a platform; it’s an interconnected ecosystem designed to revolutionize decentralized technology. Our projects span multiple utilities, each with its own unique purpose:
+                            </p>
+                        </div>
+
+                        <div className="-mx-4 flex flex-wrap">
+
+                            <div className="w-full px-4 md:w-1/2">
+                                <div
+                                    className="relative z-10 mb-10 overflow-hidden rounded-[10px] px-6 py-8 bg-black-25 dark:bg-[#131B4D] shadow-md sm:p-10 md:p-8 xl:p-10"
+                                >
+                                    <div className="absolute right-0 top-0 z-[-1]">
+                                        <img src={testimonial_shape} alt="shape" />
+                                    </div>
+                                    <div className="mb-6">
+                                        <h3 className="mb-1 md:text-2xl text-xl font-libre font-semibold text-dark dark:text-white">
+                                            NeonSora:
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <p className="text-base font-medium">
+                                            A secure and rewarding token launch platform that redefines token creation for creators and investors alike.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="w-full px-4 md:w-1/2">
+                                <div
+                                    className="relative z-10 mb-10 overflow-hidden rounded-[10px] px-6 py-8 bg-black-25 dark:bg-[#131B4D] shadow-md sm:p-10 md:p-8 xl:p-10"
+                                >
+                                    <div className="absolute right-0 top-0 z-[-1]">
+                                        <img src={testimonial_shape} alt="shape" />
+                                    </div>
+                                    <div className="mb-6">
+                                        <h3 className="mb-1 md:text-2xl text-xl font-libre font-semibold text-dark dark:text-white">
+                                            NeonLotto:
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <p className="text-base font-medium">
+                                            A decentralized lottery dApp offering transparency, fairness, and lucrative rewards for participants.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="w-full px-4 md:w-1/2">
+                                <div
+                                    className="relative z-10 mb-10 overflow-hidden rounded-[10px] px-6 py-8 bg-black-25 dark:bg-[#131B4D] shadow-md sm:p-10 md:p-8 xl:p-10"
+                                >
+                                    <div className="absolute right-0 top-0 z-[-1]">
+                                        <img src={testimonial_shape} alt="shape" />
+                                    </div>
+                                    <div className="mb-6">
+                                        <h3 className="mb-1 md:text-2xl text-xl font-libre font-semibold text-dark dark:text-white">
+                                            NeonStream
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <p className="text-base font-medium">
+                                            A next-generation streaming platform powered by blockchain, delivering live content, video on demand, and more with exclusive benefits for $NSTREAM holders.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="w-full px-4 md:w-1/2">
+                                <div
+                                    className="relative z-10 mb-10 overflow-hidden rounded-[10px] px-6 py-8 bg-black-25 dark:bg-[#131B4D] shadow-md sm:p-10 md:p-8 xl:p-10"
+                                >
+                                    <div className="absolute right-0 top-0 z-[-1]">
+                                        <img src={testimonial_shape} alt="shape" />
+                                    </div>
+                                    <div className="mb-6">
+                                        <h3 className="mb-1 md:text-2xl text-xl font-libre font-semibold text-dark dark:text-white">
+                                            $NVERS Token:
+                                        </h3>
+                                    </div>
+                                    <div>
+                                        <p className="text-base font-medium">
+                                            The ultimate utility token that will unify the Neonverse ecosystem upon launch.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
             {/* Features section */}
 
             <section id="features" className="md:py-16 py-6 relative z-10 lg:px-20 px-5">
                 <div className="container mx-auto">
-                    <div className="mx-auto mb-16 max-w-[590px] text-center">
-                        <h2 className="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px] font-libre">
+                    <div className="mx-auto md:mb-20 mb-12 max-w-[590px] text-center">
+                        <h2 className="mb-3 text-3xl font-bold leading-tight  md:text-[45px] font-libre">
                             Best Features
                         </h2>
                     </div>
@@ -325,12 +483,12 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 className="mb-3 text-xl font-bold text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 className="mb-3 text-xl font-bold  sm:text-3xl lg:text-xl xl:text-3xl">
                                         Built on Binance Smart Chain
                                     </h3>
 
                                     <p
-                                        className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        className="text-base font-medium sm:text-lg lg:text-base xl:text-lg">
                                         Enjoy low transaction fees and high-speed processing, ensuring seamless user experiences across our ecosystem.
                                     </p>
                                 </div>
@@ -347,12 +505,12 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 className="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 className="mb-3 text-xl font-bold font-libre  sm:text-3xl lg:text-xl xl:text-3xl">
                                         Rewarding Tokenomics
                                     </h3>
 
                                     <p
-                                        className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        className="text-base font-medium sm:text-lg lg:text-base xl:text-lg">
                                         Holders of each utility token are rewarded directly with a share of profits, promoting sustainable growth and community participation.
                                     </p>
                                 </div>
@@ -371,12 +529,12 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 className="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 className="mb-3 text-xl font-bold font-libre  sm:text-3xl lg:text-xl xl:text-3xl">
                                         SAFU-Certified Development
                                     </h3>
 
                                     <p
-                                        className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        className="text-base font-medium sm:text-lg lg:text-base xl:text-lg">
                                         Our utilities are created by a trusted SAFU (Secure Asset Fund for Users) developer, ensuring transparency, security, and reliability.
                                     </p>
                                 </div>
@@ -393,12 +551,12 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 className="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 className="mb-3 text-xl font-bold font-libre  sm:text-3xl lg:text-xl xl:text-3xl">
                                         Profit-Generating Utilities
                                     </h3>
 
                                     <p
-                                        className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        className="text-base font-medium sm:text-lg lg:text-base xl:text-lg">
                                         Our business-focused utilities are designed to generate revenue, enabling consistent buybacks and value appreciation for token holders.
                                     </p>
                                 </div>
@@ -415,12 +573,12 @@ export default function Home() {
                                 </div>
 
                                 <div>
-                                    <h3 className="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
+                                    <h3 className="mb-3 text-xl font-bold font-libre  sm:text-3xl lg:text-xl xl:text-3xl">
                                         Utility-First Approach
                                     </h3>
 
                                     <p
-                                        className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
+                                        className="text-base font-medium sm:text-lg lg:text-base xl:text-lg">
                                         We deliver value before promises. All utilities are ready and operational before presale, ensuring you invest in proven solutions, not just ideas
                                     </p>
                                 </div>
@@ -462,7 +620,7 @@ export default function Home() {
                                     <h3 className="mb-3 font-libre md:text-3xl text-xl font-bold ">
                                         NeonLotto (Token: $NLOT)
                                     </h3>
-                                    <p className="text-lg font-medium text-body-color-2 dark:text-body-color">
+                                    <p className="text-lg font-medium">
                                         Discover the thrill of NeonLotto, a decentralized lottery platform that prioritizes fairness,
                                         transparency, and exciting rewards.
                                     </p>
@@ -481,31 +639,31 @@ export default function Home() {
                                 <div className=" space-y-4">
                                     <div className="flex">
                                         <span className="mr-4 h-6 w-6 rounded-full bg-blue-100"></span>
-                                        <p className="w-auto text-lg font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="w-auto text-lg font-medium">
                                             5% Sell Tax
                                         </p>
                                     </div>
                                     <div className="flex">
                                         <span className="mr-4 h-6 w-6 rounded-full bg-[#2347B9]"></span>
-                                        <p className="w-auto text-lg font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="w-auto text-lg font-medium">
                                             1% to Owners: Funds ecosystem management and platform upgrades.
                                         </p>
                                     </div>
                                     <div className="flex">
                                         <span className="mr-4 h-6 w-6 rounded-full bg-[#8BA6FF]"></span>
-                                        <p className="w-auto text-lg font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="w-auto text-lg font-medium">
                                             1% to Liquidity Pool (LP): Ensures token price stability.
                                         </p>
                                     </div>
                                     <div className="flex">
                                         <span className="mr-4 h-6 w-6 rounded-full bg-[#8696CA]"></span>
-                                        <p className="w-auto text-lg font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="w-auto text-lg font-medium">
                                             2% to Lottery Pool: Boosts rewards for participants, enhancing the lottery experience.
                                         </p>
                                     </div>
                                     <div className="flex">
                                         <span className="mr-4 h-6 w-6 rounded-full bg-[#8AC8FF]"></span>
-                                        <p className="w-auto text-lg font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="w-auto text-lg font-medium">
                                             1% Back to Holders: Rewards loyal holders for their trust and participation.
                                         </p>
                                     </div>
@@ -529,7 +687,7 @@ export default function Home() {
                                     <h3 className="mb-3 font-libre md:text-3xl text-xl font-bold ">
                                         NeonSora (Token: $NSORA)
                                     </h3>
-                                    <p className="text-lg font-medium text-body-color-2 dark:text-body-color">
+                                    <p className="text-lg font-medium">
                                         Unleash your ideas with NeonSora, our free-to-use token creation platform.
                                     </p>
                                     <ul className="text-body-color-2 dark:text-body-color list-disc space-y-1 mt-4 md:pl-4">
@@ -547,25 +705,25 @@ export default function Home() {
                                 <div className=" space-y-4">
                                     <p className="flex">
                                         <span className="mr-4 h-6 w-6 rounded-full bg-blue-100"></span>
-                                        <span className="text-lg font-medium text-body-color-2 dark:text-body-color">
+                                        <span className="text-lg font-medium">
                                             5% Sell Tax
                                         </span>
                                     </p>
                                     <p className="flex">
                                         <span className="mr-4 h-6 w-6 rounded-full bg-[#2347B9]"></span>
-                                        <span className="text-lg font-medium text-body-color-2 dark:text-body-color">
+                                        <span className="text-lg font-medium">
                                             1% to Owners: Supports platform development and growth.
                                         </span>
                                     </p>
                                     <p className="flex">
                                         <span className="mr-4 h-6 w-6 rounded-full bg-[#8BA6FF]"></span>
-                                        <span className="text-lg font-medium text-body-color-2 dark:text-body-color">
+                                        <span className="text-lg font-medium">
                                             1% to Liquidity Pool (LP): Stabilizes token liquidity and trading.
                                         </span>
                                     </p>
                                     <p className="flex">
                                         <span className="mr-4 h-6 w-6 rounded-full bg-[#8696CA]"></span>
-                                        <span className="text-lg font-medium text-body-color-2 dark:text-body-color">
+                                        <span className="text-lg font-medium">
                                             3% Back to Holders: Encourages long-term investment and loyalty.
                                         </span>
                                     </p>
@@ -589,7 +747,7 @@ export default function Home() {
                                     <h3 className="mb-3 font-libre md:text-3xl text-xl font-bold ">
                                         NeonStream (Token: $NSTREAM)
                                     </h3>
-                                    <p className="text-lg font-medium text-body-color-2 dark:text-body-color">
+                                    <p className="text-lg font-medium">
                                         Experience unmatched value with NeonStream, offering lowest prices guaranteed on subscription plans
                                         for live TV, VOD, and TV series using $NSTREAM tokens.
                                     </p>
@@ -612,25 +770,25 @@ export default function Home() {
                                 <div className=" space-y-4">
                                     <p className="flex">
                                         <span className="mr-4 h-6 w-6 rounded-full bg-blue-100"></span>
-                                        <span className="text-lg font-medium text-body-color-2 dark:text-body-color">
+                                        <span className="text-lg font-medium">
                                             5% Sell Tax
                                         </span>
                                     </p>
                                     <p className="flex">
                                         <span className="mr-4 h-6 w-6 rounded-full bg-[#2347B9]"></span>
-                                        <span className="text-lg font-medium text-body-color-2 dark:text-body-color">
+                                        <span className="text-lg font-medium">
                                             1% to Owners: Enables continued platform innovation.
                                         </span>
                                     </p>
                                     <p className="flex">
                                         <span className="mr-4 h-6 w-6 rounded-full bg-[#8BA6FF]"></span>
-                                        <span className="text-lg font-medium text-body-color-2 dark:text-body-color">
+                                        <span className="text-lg font-medium">
                                             1% to Liquidity Pool (LP): Ensures token stability.
                                         </span>
                                     </p>
                                     <p className="flex">
                                         <span className="mr-4 h-6 w-6 rounded-full bg-[#8696CA]"></span>
-                                        <span className="text-lg font-medium text-body-color-2 dark:text-body-color">
+                                        <span className="text-lg font-medium">
                                             3% Back to Holders: Provides rewards for loyal supporters.
                                         </span>
                                     </p>
@@ -657,7 +815,7 @@ export default function Home() {
                         <span className="mb-3 text-lg font-bold uppercase sm:text-xl">
                             ROADMAP
                         </span>
-                        <h2 className="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px] font-libre">
+                        <h2 className="mb-3 text-3xl font-bold leading-tight  md:text-[45px] font-libre">
                             The Timeline
                         </h2>
                     </div>
@@ -666,17 +824,17 @@ export default function Home() {
                         <div className="w-full px-4 lg:w-10/12 xl:w-9/12">
                             <div className="relative -mx-4 flex flex-wrap md:py-14 lg:py-20">
                                 <span
-                                    className="absolute top-0 left-2 hidden h-full w-[3px] bg-black-25 dark:bg-[#2D2C4A] md:left-1/2 md:block"></span>
+                                    className="absolute top-0 left-2 hidden h-full w-[3px] bg-black-25 dark:bg-[#131B4D] md:left-1/2 md:block"></span>
                                 <div className="w-full px-4 md:w-1/2">
                                     <div data-aos='fade-right' className="relative z-10 mb-10 rounded-lg bg-black-25 py-8 px-6 dark:bg-[#131b4c] md:mr-3 md:mb-0 md:text-right lg:mr-5">
                                         <span
                                             className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
                                         <span
                                             className="absolute -right-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-light-bg dark:bg-[#131b4c] md:block"></span>
-                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
+                                        <h3 className="mb-3 text-xl font-bold ">
                                             December 2024
                                         </h3>
-                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium">
                                             Creation of Telegram and X (Twitter) channels to build community engagement.
                                         </p>
                                     </div>
@@ -689,7 +847,7 @@ export default function Home() {
                                             className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
                                         <span
                                             className="absolute -left-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-black-25 dark:bg-[#131b4c] md:block"></span>
-                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
+                                        <h3 className="mb-3 text-xl font-bold ">
                                             January 2025
                                         </h3>
                                         <ul className='space-y-1'>
@@ -712,10 +870,10 @@ export default function Home() {
                                             className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
                                         <span
                                             className="absolute -right-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-black-25 dark:bg-[#131b4c] md:block"></span>
-                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
+                                        <h3 className="mb-3 text-xl font-bold ">
                                             February 2025
                                         </h3>
-                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium">
                                             Start the development of NeonSora, our innovative token launch dApp.
                                         </p>
                                     </div>
@@ -729,10 +887,10 @@ export default function Home() {
                                             className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
                                         <span
                                             className="absolute -left-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-light-bg dark:bg-[#131b4c] md:block"></span>
-                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
+                                        <h3 className="mb-3 text-xl font-bold ">
                                             March 2025
                                         </h3>
-                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium">
                                             Presale for NeonSora, providing early access to our groundbreaking platform.
                                         </p>
 
@@ -745,10 +903,10 @@ export default function Home() {
                                             className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
                                         <span
                                             className="absolute -right-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-black-25 dark:bg-[#131b4c] md:block"></span>
-                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
+                                        <h3 className="mb-3 text-xl font-bold ">
                                             April 2025
                                         </h3>
-                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium">
                                             Begin development of NeonLotto, a decentralized lottery dApp.
                                         </p>
                                     </div>
@@ -762,10 +920,10 @@ export default function Home() {
                                             className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
                                         <span
                                             className="absolute -left-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-light-bg dark:bg-[#131b4c] md:block"></span>
-                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
+                                        <h3 className="mb-3 text-xl font-bold ">
                                             May 2025
                                         </h3>
-                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium">
                                             Development of the NeonStream Smart Contract for seamless streaming functionality.
                                         </p>
 
@@ -778,10 +936,10 @@ export default function Home() {
                                             className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
                                         <span
                                             className="absolute -right-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-black-25 dark:bg-[#131b4c] md:block"></span>
-                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
+                                        <h3 className="mb-3 text-xl font-bold ">
                                             June 2025
                                         </h3>
-                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium">
                                             Presale for NeonStream, inviting participation in the streaming revolution.
                                         </p>
                                     </div>
@@ -795,10 +953,10 @@ export default function Home() {
                                             className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
                                         <span
                                             className="absolute -left-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-light-bg dark:bg-[#131b4c] md:block"></span>
-                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
+                                        <h3 className="mb-3 text-xl font-bold ">
                                             July 2025
                                         </h3>
-                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium">
                                             Presale for NeonLotto, giving users a chance to engage in decentralized lotteries.
                                         </p>
 
@@ -811,10 +969,10 @@ export default function Home() {
                                             className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
                                         <span
                                             className="absolute -right-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-black-25 dark:bg-[#131b4c] md:block"></span>
-                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
+                                        <h3 className="mb-3 text-xl font-bold ">
                                             August 2025
                                         </h3>
-                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium">
                                             Listing of NeonSora on CoinMarketCap for global visibility.
                                         </p>
                                     </div>
@@ -828,10 +986,10 @@ export default function Home() {
                                             className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
                                         <span
                                             className="absolute -left-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-light-bg dark:bg-[#131b4c] md:block"></span>
-                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
+                                        <h3 className="mb-3 text-xl font-bold ">
                                             September 2025
                                         </h3>
-                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium">
                                             Listing of NeonLotto on CoinMarketCap, expanding market reach.
                                         </p>
 
@@ -844,10 +1002,10 @@ export default function Home() {
                                             className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
                                         <span
                                             className="absolute -right-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-black-25 dark:bg-[#131b4c] md:block"></span>
-                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
+                                        <h3 className="mb-3 text-xl font-bold ">
                                             October 2025
                                         </h3>
-                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium">
                                             Listing of NeonStream on CoinMarketCap, driving adoption and recognition.
                                         </p>
                                     </div>
@@ -861,10 +1019,10 @@ export default function Home() {
                                             className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:right-auto md:-left-9 md:block lg:-left-11"></span>
                                         <span
                                             className="absolute -left-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-light-bg dark:bg-[#131b4c] md:block"></span>
-                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
+                                        <h3 className="mb-3 text-xl font-bold ">
                                             November 2025
                                         </h3>
-                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium">
                                             Development of the Neonverse Smart Contract to tie the ecosystem together.
                                         </p>
 
@@ -877,10 +1035,10 @@ export default function Home() {
                                             className="absolute top-1/2 left-0 hidden h-4 w-4 -translate-y-1/2 rounded-full border-4 border-primary bg-white dark:border-body-color md:left-auto md:-right-9 md:block lg:-right-11"></span>
                                         <span
                                             className="absolute -right-1 top-1/2 hidden h-3 w-3 -translate-y-1/2 rotate-45 bg-black-25 dark:bg-[#131b4c] md:block"></span>
-                                        <h3 className="mb-3 text-xl font-bold text-black dark:text-white">
+                                        <h3 className="mb-3 text-xl font-bold ">
                                             December 2025
                                         </h3>
-                                        <p className="mb-5 text-base font-medium text-body-color-2 dark:text-body-color">
+                                        <p className="mb-5 text-base font-medium">
                                             Presale for Neonverse, unveiling the core ecosystem token.<br></br>
                                             Begin utility development for Neonverse, integrating all platforms seamlessly.
                                         </p>
@@ -901,10 +1059,10 @@ export default function Home() {
             <section id="faq" className="relative z-10 bg-light-bg dark:bg-[#14102C] lg:px-20 px-5 pb-8">
                 <div className="container mx-auto">
                     <div className="mx-auto mb-16 max-w-[630px] text-center md:my-20 my-8">
-                        <h2 className="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px]">
+                        <h2 className="mb-3 text-3xl font-bold leading-tight  md:text-[45px]">
                             Frequently Asked Questions
                         </h2>
-                        <p className="mx-auto max-w-[590px] text-lg font-medium text-body-color-2 dark:text-body-color">
+                        <p className="mx-auto max-w-[590px] text-lg font-medium">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
                             congue arcu, In et dignissim quam condimentum vel.
                         </p>
