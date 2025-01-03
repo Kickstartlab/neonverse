@@ -324,8 +324,8 @@ export default function Home() {
                     <div className="-mx-4 flex flex-wrap justify-center items-baseline">
 
                         <div data-aos='fade-up' data-aos-delay='0' className="w-full px-4 md:w-1/2 lg:w-1/3">
-                            <div className="mx-auto mb-14 max-w-[370px] text-center space-y-6 bg-black-25 dark:bg-[#131B4D] p-5 rounded-3xl shadow-lg">
-                                <img src={project3} alt='about' className='max-w-[320px] flex mx-auto rounded-2xl'></img>
+                            <div className="mx-auto mb-8 max-w-[370px] text-center space-y-6 bg-black-25 dark:bg-[#131B4D] p-5 rounded-3xl shadow-lg">
+                                <img src={project3} alt='about' className='flex mx-auto rounded-2xl'></img>
                                 <div>
                                     <h3 className="mb-3 font-bold text-xl font-libre">
                                         Our Mission
@@ -337,8 +337,8 @@ export default function Home() {
                             </div>
                         </div>
                         <div data-aos='fade-up' data-aos-delay='100' className="w-full px-4 md:w-1/2 lg:w-1/3">
-                            <div className="mx-auto mb-14 max-w-[370px] text-center space-y-6 bg-black-25 dark:bg-[#131B4D] p-5 rounded-3xl shadow-lg">
-                                <img src={project2} alt='about' className='max-w-[320px] flex mx-auto rounded-2xl'></img>
+                            <div className="mx-auto mb-8 max-w-[370px] text-center space-y-6 bg-black-25 dark:bg-[#131B4D] p-5 rounded-3xl shadow-lg">
+                                <img src={project2} alt='about' className='flex mx-auto rounded-2xl'></img>
                                 <div>
                                     <h3 className="mb-3 font-bold text-xl font-libre">
                                         Why Neonverse?
@@ -350,8 +350,8 @@ export default function Home() {
                             </div>
                         </div>
                         <div data-aos='fade-up' data-aos-delay='200' className="w-full px-4 md:w-1/2 lg:w-1/3">
-                            <div className="mx-auto mb-14 max-w-[370px] text-center space-y-6 bg-black-25 dark:bg-[#131B4D] p-5 rounded-3xl shadow-lg">
-                                <img src={project1} alt='about' className='max-w-[320px] flex mx-auto rounded-2xl'></img>
+                            <div className="mx-auto mb-8 max-w-[370px] text-center space-y-6 bg-black-25 dark:bg-[#131B4D] p-5 rounded-3xl shadow-lg">
+                                <img src={project1} alt='about' className='flex mx-auto rounded-2xl'></img>
                                 <div>
                                     <h3 className="mb-3 font-bold text-xl font-libre">
                                         Our Vision
