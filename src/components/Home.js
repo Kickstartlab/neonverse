@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import Accordion from './Accordion'
+import Particle from './Particle'
 import heroshape1 from '../assets/heroshape1.svg';
 import heroshape2 from '../assets/heroshape2.svg';
 import faqshape1 from '../assets/faqshape1.svg';
@@ -298,7 +299,7 @@ export default function Home() {
                                 </button>
                             </a>
 
-                            <a href="/" className=''>
+                            <a href="https://t.me/neonverse_official" className=''>
                                 <button className=" dark:text-white-100 text-blue-50 font-semibold md:text-lg text-sm px-5 py-3 rounded-lg border border-blue-100">
                                     Join community
                                 </button>
@@ -460,6 +461,8 @@ export default function Home() {
 
                 </div>
             </section>
+
+<Particle />
 
             {/* Features section */}
 
