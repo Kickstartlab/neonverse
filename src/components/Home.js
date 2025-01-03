@@ -425,7 +425,7 @@ export default function Home() {
                                     </div>
                                     <div className="mb-6">
                                         <h3 className="mb-1 md:text-2xl text-xl font-libre font-semibold text-dark dark:text-white">
-                                            NeonStream
+                                            NeonStream:
                                         </h3>
                                     </div>
                                     <div>
