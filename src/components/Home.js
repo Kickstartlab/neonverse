@@ -313,9 +313,9 @@ export default function Home() {
             <section id="about" className="bg-light-bg lg:px-20 px-5 lg:py-12 py-6 dark:bg-[#14102C]">
                 <div className="container mx-auto">
                     <div className="mx-auto mb-16 max-w-[590px] text-center md:mb-20">
-                        <h2 className="mb-3 text-3xl font-bold font-libre md:text-[45px]">
+                        <h3 className="mb-3 text-2xl font-bold font-libre md:text-[45px]">
                             About Us – Neonverse
-                        </h2>
+                        </h3>
                         <p className="text-lg font-medium">
                             At Neonverse, we envision a decentralized world where innovation, creativity, and financial freedom converge. Our mission is to empower individuals and businesses to take charge of their digital futures through cutting-edge blockchain solutions.
                         </p>
@@ -366,9 +366,9 @@ export default function Home() {
 
                     <div className='md:pt-12 mt-6'>
                         <div className="mx-auto mb-16 max-w-[590px] text-center md:mb-20">
-                            <h2 className="mb-3 text-3xl font-bold font-libre md:text-[45px]">
+                            <h3 className="mb-3 text-2xl font-bold font-libre md:text-[45px]">
                                 Our Ecosystem
-                            </h2>
+                            </h3>
                             <p className="text-lg font-medium">
                                 Neonverse is not just a platform; it’s an interconnected ecosystem designed to revolutionize decentralized technology. Our projects span multiple utilities, each with its own unique purpose:
                             </p>
@@ -466,9 +466,9 @@ export default function Home() {
             <section id="features" className="md:py-16 py-6 relative z-10 lg:px-20 px-5">
                 <div className="container mx-auto">
                     <div className="mx-auto md:mb-20 mb-12 max-w-[590px] text-center">
-                        <h2 className="mb-3 text-3xl font-bold leading-tight  md:text-[45px] font-libre">
+                        <h3 className="mb-3 text-2xl font-bold leading-tight  md:text-[45px] font-libre">
                             Best Features
-                        </h2>
+                        </h3>
                     </div>
 
                     <div className="-mx-4 flex flex-wrap justify-center">
@@ -594,7 +594,7 @@ export default function Home() {
                 <div className='container mx-auto'>
 
                     <div className='md:pb-20 pb-8'>
-                        <h3 className='md:text-5xl text-3xl font-libre text-center font-bold'>
+                        <h3 className='md:text-5xl text-2xl font-libre text-center font-bold'>
                             Our Projects
                         </h3>
                     </div>
@@ -815,9 +815,9 @@ export default function Home() {
                         <span className="mb-3 text-lg font-bold uppercase sm:text-xl">
                             ROADMAP
                         </span>
-                        <h2 className="mb-3 text-3xl font-bold leading-tight  md:text-[45px] font-libre">
+                        <h3 className="mb-3 text-3xl font-bold leading-tight  md:text-[45px] font-libre">
                             The Timeline
-                        </h2>
+                        </h3>
                     </div>
 
                     <div className="-mx-4 flex justify-center">
@@ -1059,13 +1059,9 @@ export default function Home() {
             <section id="faq" className="relative z-10 bg-light-bg dark:bg-[#14102C] lg:px-20 px-5 pb-8">
                 <div className="container mx-auto">
                     <div className="mx-auto mb-16 max-w-[630px] text-center md:my-20 my-8">
-                        <h2 className="mb-3 text-3xl font-bold leading-tight  md:text-[45px]">
+                        <h3 className="mb-3 text-2xl font-bold leading-tight  md:text-[45px]">
                             Frequently Asked Questions
-                        </h2>
-                        <p className="mx-auto max-w-[590px] text-lg font-medium">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
-                            congue arcu, In et dignissim quam condimentum vel.
-                        </p>
+                        </h3>
                     </div>
 
                     <div data-aos-delay="150" className="accordion space-y-5 md:pb-12 pb-8 lg:w-9/12 flex flex-col mx-auto">

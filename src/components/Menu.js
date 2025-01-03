@@ -54,7 +54,7 @@ export default function Menu() {
     <header>
 
       <div
-        className={`lg:flex hidden items-center justify-between font-urbanist h-24 transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 w-full dark:bg-blue-50 bg-[rgba(255, 255, 255, 0.2)] shadow-md z-50 px-20 container mx-auto h-[75px] backdrop-blur-md' : ''}`}>
+        className={`lg:flex hidden items-center justify-between font-urbanist h-24 transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 right-0 w-full dark:bg-blue-200 bg-white-200 shadow-md z-50 px-20 h-[75px] backdrop-blur-md' : ''}`}>
         <a href="/" className="lg:w-2/12">
           <img src={logo} alt='logo' className={`w-24 dark:block hidden ${isSticky ? 'w-16' : ''}`}></img>
           <img src={logo_light} alt='logo' className={`w-20 dark:hidden block ${isSticky ? 'w-16' : ''}`}></img>
