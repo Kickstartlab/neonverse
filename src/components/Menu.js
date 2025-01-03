@@ -113,7 +113,7 @@ export default function Menu() {
         </div>
       </div>
 
-      <div className={`lg:hidden flex items-center justify-between py-4 font-urbanist h-24 transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 right-0 w-full dark:bg-blue-50 bg-[rgba(255, 255, 255, 0.2)] shadow-md z-50 px-6 h-[75px] backdrop-blur-md' : ''}`}>
+      <div className={`lg:hidden flex items-center justify-between py-4 font-urbanist h-24 transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 right-0 w-full dark:bg-blue-50 bg-[rgba(255, 255, 255, 0.2)] z-50 px-5 h-[75px] backdrop-blur-md' : ''}`}>
         <a href="/" className="">
           <img src={logo} alt='logo' className='w-16 dark:block hidden'></img>
           <img src={logo_light} alt='logo' className='w-14 dark:hidden block'></img>
