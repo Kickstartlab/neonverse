@@ -61,10 +61,12 @@ export default function Menu() {
         </a>
 
         <nav className='w-6/12'>
-          <ul className="text-md flex justify-center gap-x-12 pt-4 -mt-2 text-blue-50 dark:text-white-100">
+          <ul className="text-md flex justify-center gap-x-10 pt-4 -mt-2 text-blue-50 dark:text-white-100">
             <li><a href="/" className="">Home</a></li>
+            <li><a href="#about" className="dark:text-white-50 text-blue-50 dark:hover:text-white-100">About us</a></li>
             <li><a href="#features" className="dark:text-white-50 text-blue-50 dark:hover:text-white-100">Features</a></li>
             <li><a href="#projects" className="dark:text-white-50 text-blue-50 dark:hover:text-white-100">Our Projects</a></li>
+            <li><a href="#roadmap" className="dark:text-white-50 text-blue-50 dark:hover:text-white-100">Roadmap</a></li>
           </ul>
         </nav>
 
@@ -198,8 +200,10 @@ export default function Menu() {
         <div className='p-6'>
           <ul onClick={ToggleSidebar} className='space-y-12'>
             <a href="/"><li className=''>Home</li></a>
+            <a href="#about"><li className='pt-6'>About us</li></a>
             <a href="#features"><li className='pt-6'>Features</li></a>
             <a href="#projects"><li className='pt-6'>Our Projects</li></a>
+            <a href="#roadmap"><li className='pt-6'>Roadmap</li></a>
             <a href={whitepaper} target='_blank' rel='noopener noreferrer'>
               <li className='pt-6'>Whitepaper</li>
             </a>
