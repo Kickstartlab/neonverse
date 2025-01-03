@@ -8,12 +8,6 @@ html {
   background-size: 400% 400%;
 }
 
-.bg-gradient:hover {
-  background: linear-gradient(-45deg, #4776E6, #245fe9, rgba(62, 125, 255, 0), #512f88);
-  animation: gradient 3s ease infinite;
-  background-size: 400% 400%;
-}
-
 .bg-color{
   background-image: linear-gradient(180deg, #3e7dff 0%, rgba(62, 125, 255, 0) 100%);
   opacity: 0.2;
@@ -95,31 +89,19 @@ html {
 /* ---Sidebar css */
 
 .sidebar {
-  width: 250px;
-  height: 100vh;
+  width: 220px;
   box-shadow: 0px 4px 8px rgb(0 0 0 / 8%);
-  /* background: rgba(20, 16, 44, 1); */
   position: fixed;
   top: 0;
-  left: -100%;
+  right: -100%;
   transition: 0.5s;
   z-index: 50 !important;
+  margin-top: 80px;
+  margin-right: 20px;
 }
 
 .sidebar.active {
-  left: 0;
-}
-
-.sidebar-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  transition: 0.5s;
-  opacity: 0;
-  visibility: hidden;
+  right: 0;
 }
 
 .sidebar-overlay.active {
@@ -129,7 +111,6 @@ html {
 
 .sd-body {
   padding: 10px;
-  max-height: calc(100vh - 67px);
   overflow-x: hidden;
 }
 

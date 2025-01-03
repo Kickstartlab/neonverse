@@ -267,12 +267,12 @@ export default function Home() {
                             Welcome to Neonverse
                         </p>
 
-                        <div className='space-y-3'>
-                            <h1 data-aos='fade-up' className='md:text-6xl text-2xl font-libre font-bold  dark:text-white-100 text-blue-50'>
+                        <div className='space-y-2'>
+                            <h1 data-aos='fade-up' className='md:text-6xl text-3xl font-libre font-bold  dark:text-white-100 text-blue-50'>
                                 Innovating the Future
                             </h1>
 
-                            <h2 data-aos='fade-up' className='md:text-6xl text-2xl font-libre font-bold text-blue-100'>
+                            <h2 data-aos='fade-up' className='md:text-6xl text-3xl font-libre font-bold text-blue-100'>
                                 of Digital Engagement
                             </h2>
                         </div>
@@ -311,13 +311,9 @@ export default function Home() {
                         <h2 class="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px] font-libre">
                             Best Features
                         </h2>
-                        <p class="text-lg font-medium text-body-color-2 dark:text-body-color">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
-                            congue arcu, In et dignissim quam condimentum vel.
-                        </p>
                     </div>
 
-                    <div class="-mx-4 flex flex-wrap">
+                    <div class="-mx-4 flex flex-wrap justify-center">
                         <div data-aos='fade-up' data-aos-delay='0' class="w-full px-4 md:w-1/2 lg:w-1/3">
                             <div class="mx-auto mb-14 max-w-[370px] text-center">
                                 <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
@@ -330,13 +326,12 @@ export default function Home() {
 
                                 <div>
                                     <h3 class="mb-3 text-xl font-bold text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
-                                        Safe & Secure
+                                        Built on Binance Smart Chain
                                     </h3>
 
                                     <p
                                         class="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                        Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod
-                                        tempor labore labore labore et dolor .
+                                        Enjoy low transaction fees and high-speed processing, ensuring seamless user experiences across our ecosystem.
                                     </p>
                                 </div>
                             </div>
@@ -353,13 +348,12 @@ export default function Home() {
 
                                 <div>
                                     <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
-                                        Early Bonus
+                                        Rewarding Tokenomics
                                     </h3>
 
                                     <p
                                         class="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                        Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod
-                                        tempor labore labore labore et dolor .
+                                        Holders of each utility token are rewarded directly with a share of profits, promoting sustainable growth and community participation.
                                     </p>
                                 </div>
                             </div>
@@ -378,19 +372,18 @@ export default function Home() {
 
                                 <div>
                                     <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
-                                        Universal Access
+                                        SAFU-Certified Development
                                     </h3>
 
                                     <p
                                         class="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                        Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod
-                                        tempor labore labore labore et dolor .
+                                        Our utilities are created by a trusted SAFU (Secure Asset Fund for Users) developer, ensuring transparency, security, and reliability.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div data-aos='fade-up' data-aos-delay='300' class="w-full px-4 md:w-1/2 lg:w-1/3">
-                            <div class="mx-auto mb-14 max-w-[370px] text-center">
+                        <div data-aos='fade-up' data-aos-delay='300' class="w-full px-4 md:w-1/2">
+                            <div class="mx-auto mb-14 max-w-[470px] text-center">
                                 <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -401,19 +394,18 @@ export default function Home() {
 
                                 <div>
                                     <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
-                                        Secure Storage
+                                        Profit-Generating Utilities
                                     </h3>
 
                                     <p
                                         class="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                        Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod
-                                        tempor labore labore labore et dolor .
+                                        Our business-focused utilities are designed to generate revenue, enabling consistent buybacks and value appreciation for token holders.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div data-aos='fade-up' data-aos-delay='400' class="w-full px-4 md:w-1/2 lg:w-1/3">
-                            <div class="mx-auto mb-14 max-w-[370px] text-center">
+                        <div data-aos='fade-up' data-aos-delay='400' class="w-full px-4 md:w-1/2">
+                            <div class="mx-auto mb-14  max-w-[470px] text-center">
                                 <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
                                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -424,36 +416,12 @@ export default function Home() {
 
                                 <div>
                                     <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
-                                        Low Cost
+                                        Utility-First Approach
                                     </h3>
 
                                     <p
                                         class="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                        Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod
-                                        tempor labore labore labore et dolor .
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos='fade-up' data-aos-delay='500' class="w-full px-4 md:w-1/2 lg:w-1/3">
-                            <div class="mx-auto mb-14 max-w-[370px] text-center">
-                                <div class="mx-auto mb-7 flex h-20 w-20 items-center justify-center rounded-full bg-blue-100 text-white">
-                                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M20 13.3333C16.3167 13.3333 13.3333 16.3167 13.3333 20C13.3333 23.6833 16.3167 26.6667 20 26.6667C23.6833 26.6667 26.6667 23.6833 26.6667 20C26.6667 16.3167 23.6833 13.3333 20 13.3333ZM8.33333 25H5V31.6667C5 33.5 6.5 35 8.33333 35H15V31.6667H8.33333V25ZM8.33333 8.33333H15V5H8.33333C6.5 5 5 6.5 5 8.33333V15H8.33333V8.33333ZM31.6667 5H25V8.33333H31.6667V15H35V8.33333C35 6.5 33.5 5 31.6667 5ZM31.6667 31.6667H25V35H31.6667C33.5 35 35 33.5 35 31.6667V25H31.6667V31.6667Z"
-                                            fill="white" />
-                                    </svg>
-                                </div>
-
-                                <div>
-                                    <h3 class="mb-3 text-xl font-bold font-libre text-black dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">
-                                        Several Profit
-                                    </h3>
-
-                                    <p
-                                        class="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
-                                        Lorem ipsum dolor sit amet consectetur elit, sed do eiusmod
-                                        tempor labore labore labore et dolor .
+                                        We deliver value before promises. All utilities are ready and operational before presale, ensuring you invest in proven solutions, not just ideas
                                     </p>
                                 </div>
                             </div>
@@ -473,11 +441,11 @@ export default function Home() {
                         </h3>
                     </div>
 
-                    <div className="flex flex-col mx-auto border-gradient lg:w-11/12 md:p-16 p-6 dark:bg-[#131b4c] bg-black-25 rounded-lg md:gap-y-24 gap-y-8">
+                    <div className="flex flex-col mx-auto border-gradient lg:w-11/12 md:p-16 p-5 dark:bg-[#131b4c] bg-black-25 rounded-lg md:gap-y-24 gap-y-8">
 
                         <div className='lg:flex items-center gap-20 lg:space-y-0 space-y-8'>
                             <div data-aos='zoom-in' class="w-full px-4 lg:w-1/2">
-                                <PieChart className='md:w-96 w-64 flex mx-auto'
+                                <PieChart className='md:w-96 flex mx-auto'
                                     data={[
                                         { title: ' 5% Sell Tax', value: 30, color: '#4776e6' },
                                         { title: '1% to Owners: Funds ecosystem management and platform upgrades.', value: 15, color: '#2347B9' },
@@ -498,7 +466,7 @@ export default function Home() {
                                         Discover the thrill of NeonLotto, a decentralized lottery platform that prioritizes fairness,
                                         transparency, and exciting rewards.
                                     </p>
-                                    <ul className="text-body-color-2 dark:text-body-color list-disc space-y-1 mt-4 pl-4">
+                                    <ul className="text-body-color-2 dark:text-body-color list-disc space-y-1 mt-4 md:pl-4">
                                         <li>
                                             <strong>Fair Play:</strong> Blockchain-powered random number generation ensures trust.
                                         </li>
@@ -547,7 +515,7 @@ export default function Home() {
 
                         <div className='lg:flex items-center flex-row-reverse gap-20 lg:space-y-0 space-y-8'>
                             <div data-aos='zoom-in' class="w-full px-4 lg:w-1/2">
-                                <PieChart className='md:w-96 w-64 flex mx-auto'
+                                <PieChart className='md:w-96 flex mx-auto'
                                     data={[
                                         { title: `5% Sell Tax`, value: 40, color: '#4776e6' },
                                         { title: `1% to Owners: Supports platform development and growth.`, value: 20, color: '#2347B9' },
@@ -564,7 +532,7 @@ export default function Home() {
                                     <p className="text-lg font-medium text-body-color-2 dark:text-body-color">
                                         Unleash your ideas with NeonSora, our free-to-use token creation platform.
                                     </p>
-                                    <ul className="text-body-color-2 dark:text-body-color list-disc space-y-1 mt-4 pl-4">
+                                    <ul className="text-body-color-2 dark:text-body-color list-disc space-y-1 mt-4 md:pl-4">
                                         <li>
                                             <strong>Effortless Token Creation:</strong> Launch tokens with ease.
                                         </li>
@@ -607,7 +575,7 @@ export default function Home() {
 
                         <div className='lg:flex items-center gap-20 lg:space-y-0 space-y-8'>
                             <div data-aos='zoom-in' class="w-full px-4 lg:w-1/2">
-                                <PieChart className='md:w-96 w-64 flex mx-auto'
+                                <PieChart className='md:w-96 flex mx-auto'
                                     data={[
                                         { title: '5% Sell Tax', value: 40, color: '#4776e6' },
                                         { title: `1% to Owners: Enables continued platform innovation.`, value: 20, color: '#2347B9' },
@@ -626,7 +594,7 @@ export default function Home() {
                                         for live TV, VOD, and TV series using $NSTREAM tokens.
                                     </p>
 
-                                    <ul className="text-body-color-2 dark:text-body-color list-disc space-y-1 mt-4 pl-4">
+                                    <ul className="text-body-color-2 dark:text-body-color list-disc space-y-1 mt-4 md:pl-4">
                                         <li>
                                             <strong>Affordable Entertainment:</strong> Save more with $NSTREAM-based discounts.
                                         </li>
@@ -683,7 +651,7 @@ export default function Home() {
 
             {/* roadmap section */}
 
-            <section id="roadmap" class="relative z-10 md:py-20 py-8 lg:px-20 px-5">
+            {/* <section id="roadmap" class="relative z-10 md:py-20 py-8 lg:px-20 px-5">
                 <div class="container mx-auto">
                     <div class="mx-auto mb-16 max-w-[590px] text-center md:mb-20">
                         <span class="mb-3 text-lg font-bold uppercase text-primary sm:text-xl">
@@ -897,13 +865,13 @@ export default function Home() {
                 <div class="absolute left-0 bottom-0 -z-10">
                     <img src={timeline} alt="shape" />
                 </div>
-            </section>
+            </section> */}
 
             {/* faq section */}
 
             <section id="faq" class="relative z-10 bg-light-bg dark:bg-[#14102C] lg:px-20 px-5 pb-8">
                 <div class="container mx-auto">
-                    <div class="mx-auto mb-16 max-w-[630px] text-center md:mb-20">
+                    <div class="mx-auto mb-16 max-w-[630px] text-center md:my-20 my-8">
                         <h2 class="mb-3 text-3xl font-bold leading-tight text-black dark:text-white md:text-[45px]">
                             Frequently Asked Questions
                         </h2>

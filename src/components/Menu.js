@@ -1,21 +1,24 @@
 import React, { useState, useEffect } from 'react'
 import logo from "../assets/logo.png"
 import logo_light from "../assets/logo-light.png"
-
 import whitepaper from '../assets/whitepaper.pdf';
 
 export default function Menu() {
 
   const [isOpen, setIsopen] = useState(false);
   const [show, setShow] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
 
   const ToggleSidebar = () => {
     isOpen === true ? setIsopen(false) : setIsopen(true);
+    setIsSidebarOpen((prev) => !prev);
   }
 
   const [theme, setTheme] = useState(
     localStorage.getItem('theme') || 'light'
   );
+
 
   useEffect(() => {
     if (theme === 'dark') {
@@ -46,6 +49,9 @@ export default function Menu() {
             <li><a href="#features" className="dark:text-white-50 text-blue-50 hover:text-white-100">Features</a></li>
             <li><a href="#projects" className="dark:text-white-50 text-blue-50 hover:text-white-100">Our Projects</a></li>
             <li><a href="#roadmap" className="dark:text-white-50 text-blue-50 hover:text-white-100">Roadmap</a></li>
+            <a href={whitepaper} target='_blank' rel='noopener noreferrer' className='dark:text-white-50 text-blue-50 hover:text-white-100'>
+              <li>Whitepaper</li>
+            </a>
           </ul>
         </nav>
 
@@ -87,19 +93,18 @@ export default function Menu() {
           </div>
 
           <a href={whitepaper} target='_blank' rel='noopener noreferrer'>
-            <button onClick={() => setShow(!show)} className="bg-gradient rounded-lg py-3 lg:px-6 px-4 font-semibold text-white-100">
+            <button className="bg-gradient rounded-lg py-3 lg:px-6 px-4 font-semibold text-white-100">
               Whitepaper
             </button>
           </a>
         </div>
       </div>
 
-      <div className="lg:hidden flex items-center justify-between py-6 font-montserat">
+      <div className="lg:hidden flex items-center justify-between py-4 font-montserat">
         <a href="/" className="">
-          <img src={logo} alt='logo' className='w-24 dark:block hidden'></img>
-          <img src={logo_light} alt='logo' className='w-20 dark:hidden block'></img>
+          <img src={logo} alt='logo' className='w-16 dark:block hidden'></img>
+          <img src={logo_light} alt='logo' className='w-14 dark:hidden block'></img>
         </a>
-
 
         <div className='flex items-center'>
           <div className="flex justify-end items-center p-4">
@@ -136,48 +141,59 @@ export default function Menu() {
               </span>
             </div>
           </div>
+
           <button onClick={ToggleSidebar} className="nav cursor-pointer">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6 text-white-100">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
-            </svg>
+            {isSidebarOpen ? (
+              // Close (X) icon
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-6 h-6 dark:text-white-100 text-blue-50"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            ) : (
+              // Hamburger menu icon
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-6 h-6 dark:text-white-100 text-blue-50"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            )}
           </button>
         </div>
 
       </div>
 
       <div className={`sidebar ${isOpen === true ? 'active' : ''} dark:bg-blue-50 bg-black-25`}>
-        <div className='p-5'>
-          <div className="flex items-center justify-between" onClick={ToggleSidebar}>
-
-            <a href="/" className="mt-4">
-              <img src={logo} alt='logo' className='w-24 dark:block hidden'></img>
-              <img src={logo_light} alt='logo' className='w-20 dark:hidden block'></img>
+        <div className='p-6'>
+          <ul onClick={ToggleSidebar} className='space-y-12'>
+            <a href="/"><li className=''>Home</li></a>
+            <a href="#features"><li className='pt-6'>Features</li></a>
+            <a href="#projects"><li className='pt-6'>Our Projects</li></a>
+            <a href="#roadmap"><li className='pt-6'>Roadmap</li></a>
+            <a href={whitepaper} target='_blank' rel='noopener noreferrer'>
+              <li className='pt-6'>Whitepaper</li>
             </a>
-
-            <i className="fa fa-times text-2xl"></i>
-          </div>
-
-          <div className="sd-body mt-12">
-            <ul className='space-y-12'>
-              <a onClick={ToggleSidebar} href="/"><li className='pt-6'>Home</li></a>
-              <a onClick={ToggleSidebar} href="#features"><li className='pt-6'>Features</li></a>
-              <a onClick={ToggleSidebar} href="#projects"><li className='pt-6'>Our Projects</li></a>
-              <a onClick={ToggleSidebar} href="#roadmap"><li className='pt-6'>Roadmap</li></a>
-
-              <a href={whitepaper} target='_blank' rel='noopener noreferrer'>
-                <button onClick={() => setShow(!show)} className="bg-gradient mt-8 rounded-lg p-3 w-full text-white-100 text-center">
-                  Whitepaper
-                </button>
-              </a>
-            </ul>
-          </div>
-
+          </ul>
         </div>
       </div>
-
-
-      <div className={`sidebar-overlay ${isOpen === true ? 'active' : ''}`} onClick={ToggleSidebar}></div>
-
 
 
     </header >

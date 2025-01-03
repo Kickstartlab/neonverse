@@ -2,17 +2,18 @@ import React from 'react'
 import telegram from '../assets/telegram.webp';
 import x from '../assets/x.png';
 import footershape1 from '../assets/footershape1.svg';
+import whitepaper from '../assets/whitepaper.pdf';
 
 
 
 export default function Footer() {
   return (
 
-    <footer className=' dark:text-white-100 text-blue-50 lg:px-20 px-5 container mx-auto relative z-10'>
+    <footer className=' dark:text-white-100 text-blue-50 lg:px-20 px-5 py-3 container mx-auto relative z-10'>
 
-      <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 justify-between gap-6 items-start lg:py-12">
+      <div className="flex flex-wrap lg:justify-center lg:gap-44 md:gap-20 gap-6 items-start lg:py-12">
 
-        <div className="col-span-2">
+        <div className="">
           <h3 className='text-3xl font-libre font-bold'>Neonverse</h3>
           <p className='py-6  dark:text-white-50 text-blue-50'>
             Experience the next generation<br></br>
@@ -21,25 +22,18 @@ export default function Footer() {
         </div>
 
         <div>
-          <h5 className='font-libre uppercase font-semibold pb-5'>Home</h5>
-          <ul className=' dark:text-white-50 text-blue-50 space-y-4'>
-            <li>Features</li>
-            <li>Our Story</li>
-            <li>Tokenomics</li>
+          <h5 className='font-libre uppercase font-bold text-lg pb-5'>Home</h5>
+          <ul className=' dark:text-white-50 text-blue-50'>
+            <a href='#about' className='mt-2'><li>About Us</li></a>
+            <a href='#features' className='mt-2'><li>Features</li></a>
+            <a href='#projects' className='mt-2'><li>Our Projects</li></a>
+            <a href={whitepaper} target='_blank' rel='noopener noreferrer'>
+              <li>Whitepaper</li>
+            </a>
           </ul>
         </div>
 
-        <div>
-          <h5 className='font-libre uppercase font-semibold pb-5'>Legals</h5>
-          <ul className=' dark:text-white-50 text-blue-50 space-y-4'>
-            <li>About Us</li>
-            <li>Our Services</li>
-            <li>Value Proposition</li>
-            <li>Testimonials</li>
-          </ul>
-        </div>
-
-        <div className='space-y-5'>
+        <div className='space-y-3'>
           <div className='flex items-center gap-x-5'>
             <a href='/' className=''>
               <img src={telegram} alt='telegram' className='w-10 rounded-full hover:scale-125 duration-300'></img>
