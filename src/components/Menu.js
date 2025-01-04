@@ -115,7 +115,7 @@ export default function Menu() {
         </div>
       </div>
 
-      <div className={`lg:hidden flex items-center justify-between py-4 font-urbanist h-24 transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 right-0 w-full dark:bg-blue-50 bg-[rgba(255, 255, 255, 0.2)] z-50 px-5 h-[75px] backdrop-blur-md' : ''}`}>
+      <div className={`lg:hidden flex items-center justify-between py-4 font-urbanist h-24 transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 right-0 w-full dark:bg-blue-200 bg-white-200 z-50 px-5 h-[75px] backdrop-blur-md' : ''}`}>
         <a href="/" className="">
           <img src={logo} alt='logo' className='w-16 dark:block hidden'></img>
           <img src={logo_light} alt='logo' className='w-14 dark:hidden block'></img>
@@ -196,7 +196,7 @@ export default function Menu() {
 
       </div>
 
-      <div className={`sidebar ${isOpen === true ? 'active' : ''} dark:bg-blue-50 bg-black-25`}>
+      <div className={`sidebar ${isOpen === true ? 'active' : ''} dark:bg-blue-200 bg-white-200`}>
         <div className='p-6'>
           <ul onClick={ToggleSidebar} className='space-y-12'>
             <a href="/"><li className=''>Home</li></a>
