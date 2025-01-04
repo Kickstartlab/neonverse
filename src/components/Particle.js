@@ -24,14 +24,14 @@ function Particle() {
                     },
                     "particles": {
                         "number": {
-                            "value": 50,
+                            "value": 80,
                             "density": {
                                 "enable": false,
                                 "value_area": 1400
                             }
                         },
                         "color": {
-                            "value": "#D9D9D9"
+                            "value": "rgba(255, 255, 255, 0.4)"
                         },
                         "shape": {
                             "type": "circle",
@@ -43,10 +43,10 @@ function Particle() {
                             "value": 1,
                             "random": false,
                             "anim": {
-                                "enable": false,
+                                "enable": true,
                                 "speed": 1,
                                 "opacity_min": 0.1,
-                                "sync": false
+                                "sync": true
                             }
                         },
                         "size": {
