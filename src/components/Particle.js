@@ -31,7 +31,7 @@ function Particle() {
                             }
                         },
                         "color": {
-                            "value": "rgba(255, 255, 255, 0.4)"
+                            "value": "#3e7dff"
                         },
                         "shape": {
                             "type": "circle",
@@ -72,7 +72,7 @@ function Particle() {
                         "line_linked": {
                             "enable": true,
                             "distance": 100,
-                            "color": "#fff",
+                            "color": "#3e7dff",
                             "opacity": 0.4,
                             "width": 1.5
                         },
