@@ -126,3 +126,7 @@ html {
   margin-bottom: 10px;
   width: 100%;
 }
+
+#tsparticles{
+  height: 100vh;
+}

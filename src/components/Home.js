@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Footer from './Footer'
 import Menu from './Menu'
 import Accordion from './Accordion'
-// import Particle from './Particle'
+import Particle from './Particle'
 import heroshape1 from '../assets/heroshape1.svg';
 import heroshape2 from '../assets/heroshape2.svg';
 import faqshape1 from '../assets/faqshape1.svg';
@@ -257,11 +257,16 @@ export default function Home() {
     return (
         <div className="font-urbanist overflow-hidden  dark:text-white-100 text-blue-50 dark:bg-[#14102C] bg-white-100">
 
+
+            <div className='bg-color absolute left-0 top-0 right-0 h-screen'>
+            </div>
+
+            <div className='absolute left-0 top-0 right-0 h-screen'>
+                <Particle />
+            </div>
+
             <img src={heroshape1} alt='' className='absolute left-0 top-0'></img>
             <img src={heroshape2} alt='' className='absolute right-0 top-0'></img>
-
-            <div className='bg-color h-screen absolute left-0 right-0 top-0'>
-            </div>
 
             <div className="lg:px-20 px-5 relative z-20">
                 <div className='container mx-auto'>
