@@ -436,7 +436,7 @@ export default function Home() {
                                     </div>
                                     <div>
                                         <p className="text-base font-medium">
-                                            A next-generation streaming platform powered by blockchain, delivering live content, video on demand, and more with exclusive benefits for $NSTREAM holders.
+                                            NeonStream is a streaming app provider, offering a wide range of content, including live streaming, video on demand, dramas, TV series, and more. With the $NSTREAM token, users can enjoy subscription plans at the lowest guaranteed prices, making premium entertainment more accessible and affordable.
                                         </p>
                                     </div>
                                 </div>
