@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import logo from "../assets/logo.png"
-import logo_light from "../assets/logo-light.png"
+import logo_light from "../assets/logo_light.png"
 import whitepaper from '../assets/whitepaper.pdf';
 
 export default function Menu() {
@@ -56,12 +56,12 @@ export default function Menu() {
       <div
         className={`lg:flex hidden items-center justify-between font-urbanist h-24 transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 right-0 w-full dark:bg-blue-200 bg-white-200 shadow-md z-50 px-20 h-[75px] backdrop-blur-md' : ''}`}>
         <a href="/" className="lg:w-2/12">
-          <img src={logo} alt='logo' className={`w-24 dark:block hidden ${isSticky ? 'w-16' : ''}`}></img>
-          <img src={logo_light} alt='logo' className={`w-20 dark:hidden block ${isSticky ? 'w-16' : ''}`}></img>
+          <img src={logo} alt='logo' className={`w-28 dark:block hidden ${isSticky ? 'w-20' : ''}`}></img>
+          <img src={logo_light} alt='logo' className={`w-28 dark:hidden block ${isSticky ? 'w-20' : ''}`}></img>
         </a>
 
         <nav className='w-6/12'>
-          <ul className="text-md flex justify-center gap-x-10 pt-4 -mt-2 text-blue-50 dark:text-white-100">
+          <ul className="text-md flex justify-center gap-x-10 pt-4 -mt-3 text-blue-50 dark:text-white-100">
             <li><a href="/" className="">Home</a></li>
             <li><a href="#about" className="dark:text-white-50 text-blue-50 dark:hover:text-white-100">About us</a></li>
             <li><a href="#features" className="dark:text-white-50 text-blue-50 dark:hover:text-white-100">Features</a></li>
