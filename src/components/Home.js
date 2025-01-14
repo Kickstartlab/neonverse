@@ -644,7 +644,7 @@ export default function Home() {
                                 </div>
                                 <div className=" space-y-4">
                                     <div className="flex items-start">
-                                        <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg className='w-10 h-10' viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#4776e6" />
                                         </svg>
                                         <p className="w-auto text-lg font-medium">
