@@ -643,32 +643,42 @@ export default function Home() {
                                     </ul>
                                 </div>
                                 <div className=" space-y-4">
-                                    <div className="flex">
-                                        <span className="mr-4 h-6 w-6 rounded-full bg-blue-100"></span>
+                                    <div className="flex items-start">
+                                        <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#4776e6" />
+                                        </svg>
                                         <p className="w-auto text-lg font-medium">
                                             5% Sell Tax
                                         </p>
                                     </div>
-                                    <div className="flex">
-                                        <span className="mr-4 h-6 w-6 rounded-full bg-[#2347B9]"></span>
+                                    <div className="flex items-start">
+                                        <svg className='w-12 h-12' viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#2347B9" />
+                                        </svg>
                                         <p className="w-auto text-lg font-medium">
                                             1% to Owners: Funds ecosystem management and platform upgrades.
                                         </p>
                                     </div>
-                                    <div className="flex">
-                                        <span className="mr-4 h-6 w-6 rounded-full bg-[#8BA6FF]"></span>
+                                    <div className="flex items-start">
+                                        <svg className='w-10 h-10' viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#8BA6FF" />
+                                        </svg>
                                         <p className="w-auto text-lg font-medium">
                                             1% to Liquidity Pool (LP): Ensures token price stability.
                                         </p>
                                     </div>
-                                    <div className="flex">
-                                        <span className="mr-4 h-6 w-6 rounded-full bg-[#8696CA]"></span>
+                                    <div className="flex items-start">
+                                        <svg className='w-16 h-16' viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#8696CA" />
+                                        </svg>
                                         <p className="w-auto text-lg font-medium">
                                             2% to Lottery Pool: Boosts rewards for participants, enhancing the lottery experience.
                                         </p>
                                     </div>
-                                    <div className="flex">
-                                        <span className="mr-4 h-6 w-6 rounded-full bg-[#8AC8FF]"></span>
+                                    <div className="flex items-start">
+                                        <svg className='w-12 h-12' viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#8AC8FF" />
+                                        </svg>
                                         <p className="w-auto text-lg font-medium">
                                             1% Back to Holders: Rewards loyal holders for their trust and participation.
                                         </p>
@@ -709,26 +719,34 @@ export default function Home() {
                                     </ul>
                                 </div>
                                 <div className=" space-y-4">
-                                    <p className="flex">
-                                        <span className="mr-4 h-6 w-6 rounded-full bg-blue-100"></span>
+                                    <p className="flex items-center">
+                                        <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#4776e6" />
+                                        </svg>
                                         <span className="text-lg font-medium">
                                             5% Sell Tax
                                         </span>
                                     </p>
-                                    <p className="flex">
-                                        <span className="mr-4 h-6 w-6 rounded-full bg-[#2347B9]"></span>
+                                    <p className="flex items-start">
+                                        <svg className='w-10 h-10' viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#2347B9" />
+                                        </svg>
                                         <span className="text-lg font-medium">
                                             1% to Owners: Supports platform development and growth.
                                         </span>
                                     </p>
-                                    <p className="flex">
-                                        <span className="mr-4 h-6 w-6 rounded-full bg-[#8BA6FF]"></span>
+                                    <p className="flex items-start">
+                                        <svg className='w-10 h-10' viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#8BA6FF" />
+                                        </svg>
                                         <span className="text-lg font-medium">
                                             1% to Liquidity Pool (LP): Stabilizes token liquidity and trading.
                                         </span>
                                     </p>
-                                    <p className="flex">
-                                        <span className="mr-4 h-6 w-6 rounded-full bg-[#8696CA]"></span>
+                                    <p className="flex items-start">
+                                        <svg className='w-12 h-12' viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#8696CA" />
+                                        </svg>
                                         <span className="text-lg font-medium">
                                             3% Back to Holders: Encourages long-term investment and loyalty.
                                         </span>
@@ -774,26 +792,34 @@ export default function Home() {
                                     </ul>
                                 </div>
                                 <div className=" space-y-4">
-                                    <p className="flex">
-                                        <span className="mr-4 h-6 w-6 rounded-full bg-blue-100"></span>
+                                    <p className="flex items-center">
+                                        <svg className='w-12 h-12' viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#4776e6" />
+                                        </svg>
                                         <span className="text-lg font-medium">
                                             5% Sell Tax
                                         </span>
                                     </p>
-                                    <p className="flex">
-                                        <span className="mr-4 h-6 w-6 rounded-full bg-[#2347B9]"></span>
+                                    <p className="flex items-start">
+                                        <svg className='w-12 h-12' viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#2347B9" />
+                                        </svg>
                                         <span className="text-lg font-medium">
                                             1% to Owners: Enables continued platform innovation.
                                         </span>
                                     </p>
-                                    <p className="flex">
-                                        <span className="mr-4 h-6 w-6 rounded-full bg-[#8BA6FF]"></span>
+                                    <p className="flex items-start">
+                                        <svg className='w-12 h-12' viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#8BA6FF" />
+                                        </svg>
                                         <span className="text-lg font-medium">
                                             1% to Liquidity Pool (LP): Ensures token stability.
                                         </span>
                                     </p>
-                                    <p className="flex">
-                                        <span className="mr-4 h-6 w-6 rounded-full bg-[#8696CA]"></span>
+                                    <p className="flex items-start">
+                                        <svg className='w-12 h-12' viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="19.0471" cy="19.4726" r="11.1365" fill="#8696CA" />
+                                        </svg>
                                         <span className="text-lg font-medium">
                                             3% Back to Holders: Provides rewards for loyal supporters.
                                         </span>

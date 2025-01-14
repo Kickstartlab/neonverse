@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import logo from "../assets/logo.png"
+import logo from "../assets/logo.jpg"
 import logo_light from "../assets/logo_light.png"
 import whitepaper from '../assets/whitepaper.pdf';
 
@@ -56,8 +56,8 @@ export default function Menu() {
       <div
         className={`lg:flex hidden items-center justify-between font-urbanist h-24 transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 right-0 w-full dark:bg-blue-200 bg-white-200 shadow-md z-50 px-20 h-[75px] backdrop-blur-md' : ''}`}>
         <a href="/" className="lg:w-2/12">
-          <img src={logo} alt='logo' className={`w-28 dark:block hidden ${isSticky ? 'w-20' : ''}`}></img>
-          <img src={logo_light} alt='logo' className={`w-28 dark:hidden block ${isSticky ? 'w-20' : ''}`}></img>
+          <img src={logo} alt='logo' className={`w-20 rounded-full dark:block hidden ${isSticky ? 'w-12' : ''}`}></img>
+          <img src={logo} alt='logo' className={`w-20 rounded-full dark:hidden block ${isSticky ? 'w-12' : ''}`}></img>
         </a>
 
         <nav className='w-6/12'>
@@ -117,8 +117,8 @@ export default function Menu() {
 
       <div className={`lg:hidden flex items-center justify-between py-4 font-urbanist h-24 transition-all duration-300 ${isSticky ? 'fixed top-0 left-0 right-0 w-full dark:bg-blue-200 bg-white-200 z-50 px-5 h-[75px] backdrop-blur-md' : ''}`}>
         <a href="/" className="">
-          <img src={logo} alt='logo' className='w-16 dark:block hidden'></img>
-          <img src={logo_light} alt='logo' className='w-14 dark:hidden block'></img>
+          <img src={logo} alt='logo' className='w-14 rounded-full dark:block hidden'></img>
+          <img src={logo} alt='logo' className='w-14 rounded-full dark:hidden block'></img>
         </a>
 
         <div className='flex items-center'>
